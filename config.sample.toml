@@ -1,4 +1,7 @@
 [[columns]]
+name = "First"
 keys = [ "alfa", "beta" ]
+
 [[columns]]
+name = "Second"
 keys = [ "gamma", "delta" ]

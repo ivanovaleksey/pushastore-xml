@@ -24,6 +24,7 @@ struct Config {
 
 #[derive(Deserialize, Debug)]
 struct Column {
+    name: String,
     keys: Vec<String>
 }
 
@@ -101,7 +102,7 @@ fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
 }
 
 fn fetch_config() -> Config {
-    let mut file = File::open("config.sample.toml").unwrap();
+    let mut file = File::open("config.toml").unwrap();
     let mut content = String::from("");
     file.read_to_string(&mut content);
 
