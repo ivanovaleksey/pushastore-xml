@@ -1,5 +1,6 @@
 extern crate encoding;
 extern crate xml;
+extern crate xlsx;
 
 #[macro_use]
 extern crate serde_derive;
@@ -17,6 +18,9 @@ use encoding::all::WINDOWS_1251;
 
 use xml::reader::{EventReader, XmlEvent};
 
+
+use xlsx::workbook::Workbook;
+
 #[derive(Deserialize, Debug)]
 struct Config {
     columns: Vec<Column>
@@ -32,11 +36,13 @@ fn main() {
     let args: Vec<String> = env::args().collect();
     let filename = &args[1];
 
-    let value = fetch_config();
-    println!("{:?}", value);
+    let config = fetch_config();
+    println!("{:#?}", config);
 
     let offers = fetch_offers(filename);
     println!("{:#?}", offers[0]);
+
+    generate_xlsx(&offers, &config);
 }
 
 fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
@@ -107,4 +113,49 @@ fn fetch_config() -> Config {
     file.read_to_string(&mut content);
 
     toml::from_str(&content).unwrap()
+}
+
+fn generate_xlsx(offers: &Vec<HashMap<String, String>>, config: &Config) {
+    let mut w = Workbook::new("", "Rust", true);
+    w.initialize();
+    let mut s = w.new_worksheet("Sheet 1", 2);
+
+    // Headers
+    for column in config.columns.iter() {
+        s.cell_txt(w.value(&column.name));
+    }
+    s.row();
+
+    // Empty row
+    s.row();
+
+    for offer in offers.iter() {
+
+        for column in config.columns.iter() {
+            let mut has_value = false;
+
+            // TODO: refactor with Iter
+            for key in column.keys.iter() {
+                match offer.get(&key.to_lowercase()) {
+                    Some(value) => {
+                        s.cell_txt(w.value(value));
+                        has_value = true;
+                        break;
+                    },
+                    None => {}
+                }
+            }
+
+            if !has_value {
+                s.cell_txt(w.value(""));
+            }
+        }
+
+        s.row();
+    }
+
+    s.flush();
+    w.flush();
+
+    w.xlsx("test.xlsx");
 }
