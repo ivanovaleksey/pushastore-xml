@@ -1,5 +1,11 @@
-extern crate xml;
 extern crate encoding;
+extern crate xml;
+
+#[macro_use]
+extern crate serde_derive;
+
+extern crate serde;
+extern crate toml;
 
 use std::env;
 use std::fs::File;
@@ -11,12 +17,24 @@ use encoding::all::WINDOWS_1251;
 
 use xml::reader::{EventReader, XmlEvent};
 
+#[derive(Deserialize, Debug)]
+struct Config {
+    columns: Vec<Column>
+}
+
+#[derive(Deserialize, Debug)]
+struct Column {
+    keys: Vec<String>
+}
+
 fn main() {
     let args: Vec<String> = env::args().collect();
     let filename = &args[1];
 
-    let offers = fetch_offers(filename);
+    let value = fetch_config();
+    println!("{:?}", value);
 
+    let offers = fetch_offers(filename);
     println!("{:#?}", offers[0]);
 }
 
@@ -80,4 +98,12 @@ fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
     }
 
     offers
+}
+
+fn fetch_config() -> Config {
+    let mut file = File::open("config.sample.toml").unwrap();
+    let mut content = String::from("");
+    file.read_to_string(&mut content);
+
+    toml::from_str(&content).unwrap()
 }

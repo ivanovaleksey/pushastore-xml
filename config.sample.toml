@@ -1,0 +1,4 @@
+[[columns]]
+keys = [ "alfa", "beta" ]
+[[columns]]
+keys = [ "gamma", "delta" ]
