@@ -8,9 +8,12 @@ extern crate serde_derive;
 extern crate serde;
 extern crate toml;
 
+extern crate glob;
+
 use std::env;
 use std::fs::File;
 use std::io::Read;
+use std::path::{Path, PathBuf};
 use std::collections::HashMap;
 
 use encoding::{Encoding, DecoderTrap};
@@ -18,8 +21,9 @@ use encoding::all::WINDOWS_1251;
 
 use xml::reader::{EventReader, XmlEvent};
 
-
 use xlsx::workbook::Workbook;
+
+use glob::glob;
 
 #[derive(Deserialize, Debug)]
 struct Config {
@@ -33,16 +37,27 @@ struct Column {
 }
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
-    let filename = &args[1];
+    match detect_xml_file() {
+        Some(filename) => {
+            let config = fetch_config();
+            // println!("{:#?}", config);
 
-    let config = fetch_config();
-    println!("{:#?}", config);
+            let offers = fetch_offers(&filename.to_str().unwrap());
+            // println!("{:#?}", offers[0]);
 
-    let offers = fetch_offers(filename);
-    println!("{:#?}", offers[0]);
+            generate_xlsx(&offers, &config);
+        }
+        None => {
+            println!("No XML file found. Put it in this folder and try again.");
+        }
+    }
+}
 
-    generate_xlsx(&offers, &config);
+fn detect_xml_file() -> Option<PathBuf> {
+    match glob("*.xml").unwrap().nth(0) {
+        Some(file) => file.ok(),
+        _ => None
+    }
 }
 
 fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
