@@ -39,10 +39,13 @@ struct Column {
 fn main() {
     match detect_xml_file() {
         Some(filename) => {
+            let filename = &filename.to_str().unwrap();
+            println!("File detected: {}", filename);
+
             let config = fetch_config();
             // println!("{:#?}", config);
 
-            let offers = fetch_offers(&filename.to_str().unwrap());
+            let offers = fetch_offers(filename);
             // println!("{:#?}", offers[0]);
 
             generate_xlsx(&offers, &config);
