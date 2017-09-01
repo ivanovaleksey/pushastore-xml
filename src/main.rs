@@ -110,7 +110,16 @@ fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
                 }
                 XmlEvent::Characters(s) => {
                     if inside_offer_node {
-                        offer.insert(current_node.clone().to_lowercase(), s.clone());
+                        let node  = current_node.clone().to_lowercase();
+                        let value = match node.as_ref() {
+                            "picture" => match offer.get("picture") {
+                                Some(current_value) => format!("{};;;{}", current_value, s),
+                                None => s,
+                            },
+                            _ => s
+                        };
+
+                        offer.insert(node, value);
                     }
                 }
                 _ => {}
