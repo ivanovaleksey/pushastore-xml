@@ -16,9 +16,6 @@ use std::io::Read;
 use std::path::{Path, PathBuf};
 use std::collections::HashMap;
 
-use encoding::DecoderTrap;
-use encoding::all::WINDOWS_1251;
-
 use xml::reader::{EventReader, XmlEvent};
 
 use xlsx::workbook::Workbook;
@@ -63,13 +60,36 @@ fn detect_xml_file() -> Option<PathBuf> {
     }
 }
 
+fn decode(input: &[u8]) -> String {
+    use encoding::{Encoding, DecoderTrap};
+    use encoding::all::{WINDOWS_1251, UTF_8};
+
+    let trap = DecoderTrap::Strict;
+
+    if input.starts_with(&[0xEF, 0xBB, 0xBF]) {
+        println!("Detected encoding: UTF-8 with BOM");
+        UTF_8.decode(&input[3..], trap).ok().unwrap()
+    } else {
+        match UTF_8.decode(&input, trap) {
+            Ok(utf_data) => {
+                println!("Detected encoding: UTF-8");
+                utf_data
+            },
+            Err(_) => {
+                println!("Detected encoding: WINDOWS-1251");
+                WINDOWS_1251.decode(&input, trap).unwrap()
+            }
+        }
+    }
+}
+
 fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
     let mut file = File::open(filename).unwrap();
     let mut buffer = Vec::new();
     file.read_to_end(&mut buffer);
 
-    let content = encoding::decode(&buffer, DecoderTrap::Strict, WINDOWS_1251).0.ok().unwrap();
-    let parser = EventReader::new(content.as_bytes());
+    let content = decode(&buffer);
+    let parser  = EventReader::new(content.as_bytes());
 
     let mut inside_offer_node = false;
     let mut current_node = String::from("");
