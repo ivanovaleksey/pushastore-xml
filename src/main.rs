@@ -35,6 +35,7 @@ fn main() {
     match detect_file() {
         Some(filename) => {
             let matches = App::new("Pushastore XML")
+                .version("1.0")
                 .arg(Arg::with_name("output")
                     .short("o")
                     .long("output")
