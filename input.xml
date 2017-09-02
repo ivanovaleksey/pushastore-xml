@@ -1,0 +1,2410 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2017-07-28 09:04">
+  <shop>
+    <name>Американские интерьеры</name>
+    <company>Американские интерьеры</company>
+    <url>http://american-interiors.ru</url>
+    <currencies>
+      <currency id="RUB" rate="1"/>
+      <currency id="KZT" rate="0.1859"/>
+      <currency id="USD" rate="60.5984"/>
+      <currency id="EUR" rate="71.0334"/>
+    </currencies>
+    <categories>
+      <category id="688">Мебель</category>
+      <category id="689" parentId="688">Бары</category>
+      <category id="690" parentId="688">Витрины</category>
+      <category id="750" parentId="690">Витрины для посуды</category>
+      <category id="751" parentId="690">Шкафы витрины</category>
+      <category id="691" parentId="688">Комоды</category>
+      <category id="742" parentId="691">Буфеты</category>
+      <category id="878" parentId="691">Большие комоды</category>
+      <category id="879" parentId="691">Высокие комоды</category>
+      <category id="880" parentId="691">Длинные комоды</category>
+      <category id="881" parentId="691">Широкие комоды</category>
+      <category id="692" parentId="688">Консоли</category>
+      <category id="835" parentId="692">Декоративные консоли</category>
+      <category id="837" parentId="692">Зеркальные консоли</category>
+      <category id="836" parentId="692">Узкие консоли</category>
+      <category id="838" parentId="692">Консольные столики</category>
+      <category id="839" parentId="692">Пристенные консоли</category>
+      <category id="693" parentId="688">Кровати</category>
+      <category id="825" parentId="693">Высокие кровати</category>
+      <category id="826" parentId="693">Красивые двуспальные кровати</category>
+      <category id="827" parentId="693">Кровати с высоким изголовьем</category>
+      <category id="828" parentId="693">Кровати с изголовьем</category>
+      <category id="829" parentId="693">Кровати с кожаным изголовьем</category>
+      <category id="830" parentId="693">Кровати с мягким изголовьем</category>
+      <category id="831" parentId="693">Кровати с мягкой спинкой</category>
+      <category id="832" parentId="693">Мягкие кровати</category>
+      <category id="833" parentId="693">Оригинальные кровати</category>
+      <category id="834" parentId="693">Стильные кровати</category>
+      <category id="694" parentId="688">Мебель для ванных </category>
+      <category id="743" parentId="694">Комоды для ванной</category>
+      <category id="744" parentId="694">Тумбы для ванной</category>
+      <category id="745" parentId="694">Шкафы для ванной</category>
+      <category id="695" parentId="688">Мебель под TV</category>
+      <category id="757" parentId="695">Комоды под телевизор</category>
+      <category id="758" parentId="695">Тумбы под телевизор</category>
+      <category id="759" parentId="695">Шкафы под телевизор</category>
+      <category id="696" parentId="688">Мягкая мебель</category>
+      <category id="697" parentId="696">Банкетки, пуфы, оттоманки</category>
+      <category id="746" parentId="697">Банкетки</category>
+      <category id="882" parentId="746">Банкетки с ящиком</category>
+      <category id="883" parentId="746">Прикроватные банкетки</category>
+      <category id="884" parentId="746">Узкие банкетки</category>
+      <category id="747" parentId="697">Оттоманки</category>
+      <category id="748" parentId="697">Пуфы</category>
+      <category id="885" parentId="748">Мягкие пуфы</category>
+      <category id="886" parentId="748">Пуфы банкетки</category>
+      <category id="887" parentId="748">Пуфы для ног</category>
+      <category id="888" parentId="748">Пуфы с ящиком для хранения</category>
+      <category id="889" parentId="748">Туалетные пуфы</category>
+      <category id="698" parentId="696">Диваны</category>
+      <category id="805" parentId="698">Большие диваны</category>
+      <category id="806" parentId="698">Длинные диваны</category>
+      <category id="807" parentId="698">Компактные диваны</category>
+      <category id="808" parentId="698">Маленькие диваны</category>
+      <category id="809" parentId="698">Мягкие диваны</category>
+      <category id="810" parentId="698">Небольшие диваны</category>
+      <category id="811" parentId="698">Нераскладные диваны</category>
+      <category id="812" parentId="698">Прямые диваны</category>
+      <category id="813" parentId="698">Роскошные диваны</category>
+      <category id="814" parentId="698">Стильные диваны</category>
+      <category id="815" parentId="698">Тканевые прямые диваны</category>
+      <category id="816" parentId="698">Угловые диваны</category>
+      <category id="817" parentId="698">Эксклюзивные диваны</category>
+      <category id="699" parentId="696">Кресла</category>
+      <category id="851" parentId="699">Каминные кресла</category>
+      <category id="852" parentId="699">Кресла без подлокотников</category>
+      <category id="853" parentId="699">Кресла для отдыха</category>
+      <category id="854" parentId="699">Кресла для чтения</category>
+      <category id="855" parentId="699">Кресла с высокой спинкой</category>
+      <category id="856" parentId="699">Кресла с деревянными подлокотниками</category>
+      <category id="857" parentId="699">Маленькие кресла</category>
+      <category id="858" parentId="699">Мягкие кресла</category>
+      <category id="933" parentId="699">Кресла для дома</category>
+      <category id="934" parentId="699">Раскладные кресла</category>
+      <category id="700" parentId="688">Подставки напольные высокие</category>
+      <category id="701" parentId="688">Стеллажи</category>
+      <category id="760" parentId="701">Открытые стеллажи</category>
+      <category id="761" parentId="701">Стеллажи для книг</category>
+      <category id="762" parentId="701">Стеллажи со стеклом</category>
+      <category id="763" parentId="701">Узкие этажерки</category>
+      <category id="764" parentId="701">Этажерки для книг</category>
+      <category id="702" parentId="688">Столы</category>
+      <category id="703" parentId="702">Игральные столы</category>
+      <category id="704" parentId="702">Парадный стол</category>
+      <category id="705" parentId="702">Столики туалетные, тумбы прикроватные</category>
+      <category id="818" parentId="705">Будуарные столики</category>
+      <category id="819" parentId="705">Дамские столики</category>
+      <category id="820" parentId="705">Косметические столики</category>
+      <category id="821" parentId="705">Прикроватные столики</category>
+      <category id="822" parentId="705">Туалетные столики с зеркалом</category>
+      <category id="823" parentId="705">Тумбочки с ящиками</category>
+      <category id="824" parentId="705">Узкие тумбы</category>
+      <category id="706" parentId="702">Столы журнальные, кофейные, коктейльные</category>
+      <category id="870" parentId="706">Журнальные столики с ящиком</category>
+      <category id="871" parentId="706">Кофейные столики на колесиках</category>
+      <category id="872" parentId="706">Круглые журнальные столики</category>
+      <category id="873" parentId="706">Круглые кофейные столики</category>
+      <category id="874" parentId="706">Сервировочные столики</category>
+      <category id="875" parentId="706">Сервировочные столики на колесах</category>
+      <category id="707" parentId="702">Столы кабинетные (письменные), бюро</category>
+      <category id="752" parentId="707">Большие письменные столы</category>
+      <category id="753" parentId="707">Бюро для кабинета</category>
+      <category id="754" parentId="707">Двухтумбовые письменные столы</category>
+      <category id="755" parentId="707">Письменные столы для дома</category>
+      <category id="756" parentId="707">Столы для кабинета</category>
+      <category id="765" parentId="707">Письменные столы с ящиками</category>
+      <category id="766" parentId="707">Рабочие столы</category>
+      <category id="767" parentId="707">Столы руководителя</category>
+      <category id="768" parentId="707">Узкие письменные столы</category>
+      <category id="708" parentId="702">Столы обеденные</category>
+      <category id="840" parentId="708">Большие обеденные столы</category>
+      <category id="841" parentId="708">Большие столы</category>
+      <category id="842" parentId="708">Красивые столы</category>
+      <category id="843" parentId="708">Круглые столы</category>
+      <category id="844" parentId="708">Круглые столы на одной ножке</category>
+      <category id="845" parentId="708">Кухонные столы</category>
+      <category id="849" parentId="708">Маленькие обеденные столы</category>
+      <category id="846" parentId="708">Овальные столы</category>
+      <category id="850" parentId="708">Маленькие столы</category>
+      <category id="847" parentId="708">Прямоугольные столы</category>
+      <category id="848" parentId="708">Стеклянные столы</category>
+      <category id="898" parentId="708">Раздвижные обеденные столы</category>
+      <category id="709" parentId="702">Столы приставные</category>
+      <category id="876" parentId="709">Приставные столики</category>
+      <category id="877" parentId="709">Приставные столики к дивану</category>
+      <category id="710" parentId="688">Стулья и полукресла</category>
+      <category id="711" parentId="710">Барные стулья</category>
+      <category id="770" parentId="711">Высокие стулья для кухни</category>
+      <category id="771" parentId="711">Мягкие барные стулья</category>
+      <category id="772" parentId="711">Стулья для бара</category>
+      <category id="773" parentId="711">Стулья для барной стойки</category>
+      <category id="712" parentId="710">Офисные кресла</category>
+      <category id="780" parentId="712">Кабинетные кресла</category>
+      <category id="781" parentId="712">Кресла на колесиках</category>
+      <category id="713" parentId="710">Полукресла</category>
+      <category id="774" parentId="713">Полукресла с мягкими подлокотниками</category>
+      <category id="714" parentId="710">Стулья</category>
+      <category id="775" parentId="714">Стулья с подлокотниками</category>
+      <category id="859" parentId="714">Красивые стулья</category>
+      <category id="860" parentId="714">Кухонные стулья</category>
+      <category id="861" parentId="714">Мягкие стулья</category>
+      <category id="862" parentId="714">Полумягкие стулья</category>
+      <category id="863" parentId="714">Стулья без подлокотников</category>
+      <category id="864" parentId="714">Стулья для дома</category>
+      <category id="865" parentId="714">Стулья для туалетного столика</category>
+      <category id="866" parentId="714">Стулья на металлокаркасе</category>
+      <category id="867" parentId="714">Стулья под старину</category>
+      <category id="868" parentId="714">Стулья с высокой спинкой</category>
+      <category id="869" parentId="714">Стулья с обивкой</category>
+      <category id="715" parentId="688">Шезлонги</category>
+      <category id="716" parentId="688">Ширмы</category>
+      <category id="769" parentId="716">Декоративные ширмы</category>
+      <category id="717" parentId="688">Шкафы</category>
+      <category id="776" parentId="717">Винные шкафы</category>
+      <category id="777" parentId="717">Книжные шкафы</category>
+      <category id="779" parentId="717">Книжные шкафы со стеклянными дверцами</category>
+      <category id="778" parentId="717">Стойки для книг</category>
+      <category id="937" parentId="688">Мебель для столовой</category>
+      <category id="718">Свет</category>
+      <category id="719" parentId="718">Бра</category>
+      <category id="720" parentId="718">Лампы</category>
+      <category id="721" parentId="718">Люстры</category>
+      <category id="722" parentId="718">Торшеры</category>
+      <category id="651">Аксессуары</category>
+      <category id="652" parentId="651">Аксессуары для ванной</category>
+      <category id="653" parentId="651">Аксессуары для письменного стола</category>
+      <category id="654" parentId="651">Ароматы для интерьера</category>
+      <category id="655" parentId="651">Вазы, чаши, блюда, кувшины, кашпо, менажницы</category>
+      <category id="656" parentId="655">Блюда</category>
+      <category id="657" parentId="655">Вазы</category>
+      <category id="658" parentId="655">Кашпо</category>
+      <category id="659" parentId="655">Кувшины</category>
+      <category id="660" parentId="655">Менажницы</category>
+      <category id="661" parentId="655">Чаши</category>
+      <category id="662" parentId="651">Зеркала</category>
+      <category id="921" parentId="662">Большие зеркала</category>
+      <category id="922" parentId="662">Декоративные зеркала </category>
+      <category id="923" parentId="662">Зеркала в рамах</category>
+      <category id="924" parentId="662">Зеркала в раме из дерева</category>
+      <category id="925" parentId="662">Круглые зеркала</category>
+      <category id="926" parentId="662">Круглые зеркала в ванную</category>
+      <category id="927" parentId="662">Напольные зеркала</category>
+      <category id="935" parentId="662">Напольные зеркала в прихожую</category>
+      <category id="928" parentId="662">Настенные зеркала </category>
+      <category id="929" parentId="662">Настенные зеркала в прихожую</category>
+      <category id="930" parentId="662">Овальные зеркала</category>
+      <category id="931" parentId="662">Овальные зеркала в ванную комнату</category>
+      <category id="932" parentId="662">Овальные зеркала в прихожую</category>
+      <category id="663" parentId="651">Камины</category>
+      <category id="664" parentId="651">Картины, панно, репродукции</category>
+      <category id="665" parentId="664">Картины</category>
+      <category id="666" parentId="664">Панно</category>
+      <category id="782" parentId="664">Постеры</category>
+      <category id="667" parentId="664">Репродукции</category>
+      <category id="783" parentId="664">Рамы</category>
+      <category id="668" parentId="651">Коллекция милитари-фигур</category>
+      <category id="669" parentId="651">Наборы для игр</category>
+      <category id="670" parentId="651">Панно Maurichi Van Dime</category>
+      <category id="671" parentId="651">Пепельницы</category>
+      <category id="784" parentId="651">Новогодние игрушки, елки</category>
+      <category id="672" parentId="651">Подносы</category>
+      <category id="785" parentId="651">Панно</category>
+      <category id="673" parentId="651">Подсвечники</category>
+      <category id="674" parentId="651">Подставки</category>
+      <category id="675" parentId="651">Полки настенные, консоли, крючки, держатели</category>
+      <category id="676" parentId="651">Посуда</category>
+      <category id="749" parentId="676">Столовые приборы</category>
+      <category id="678" parentId="676">Столовые сервизы и наборы</category>
+      <category id="786" parentId="676">Прочее</category>
+      <category id="679" parentId="651">Рамки для фотографии, фотоальбомы</category>
+      <category id="680" parentId="651">Статуэтки</category>
+      <category id="682" parentId="651">Тележки декоративные</category>
+      <category id="683" parentId="651">Фонтаны</category>
+      <category id="684" parentId="651">Цветочные композиции</category>
+      <category id="787" parentId="651">Прочее</category>
+      <category id="936" parentId="787">Bernhardt Новинки уже в продаже</category>
+      <category id="685" parentId="651">Часы настенные</category>
+      <category id="686" parentId="651">Часы настольные</category>
+      <category id="687" parentId="651">Шкатулки, коробки, контейнеры</category>
+      <category id="803" parentId="687">Подарочные коробки</category>
+      <category id="789" parentId="651">Текстиль, ковры</category>
+      <category id="790" parentId="789">Кисть</category>
+      <category id="791" parentId="789">Ковры</category>
+      <category id="792" parentId="789">Наволочки</category>
+      <category id="793" parentId="789">Одеяло</category>
+      <category id="794" parentId="789">Перина</category>
+      <category id="795" parentId="789">Подкладка под скатерть</category>
+      <category id="796" parentId="789">Подушки</category>
+      <category id="797" parentId="789">Подушки декоративные</category>
+      <category id="798" parentId="789">Покрывало</category>
+      <category id="799" parentId="789">Постельное белье</category>
+      <category id="800" parentId="789">Салфетка</category>
+      <category id="801" parentId="789">Скатерть</category>
+      <category id="802" parentId="789">Шторы</category>
+      <category id="804" parentId="651">Ящик</category>
+      <category id="915">Мебель для гостиной</category>
+      <category id="919">Мебель для кухни</category>
+      <category id="917">Мебель для прихожей</category>
+      <category id="920">Мебель для спальни</category>
+    </categories>
+    <offers>
+      <offer id="00b23091-5a49-11e1-8463-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/vazy_chashi_blyuda_kuvshiny_kashpo_menazhnitsy/blyuda/blyudo_iz_zatemnennogo_stekla_jra_8364/</url>
+        <price>11225</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>656</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/18449/00b230915a4911e1846300259032c34f_43e1c389814911e4bd1c00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/18449/00b230915a4911e1846300259032c34f_43e1c38a814911e4bd1c00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/18449/00b230915a4911e1846300259032c34f_43e1c38b814911e4bd1c00259032c34f.jpg</picture>
+        <name>Блюдо из затемненного стекла </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-8364</vendorCode>
+        <description>Красивое блюдо серого оттенка из прочного стекла американской марки John Richard.
+Идеально подойдет для праздничной сервировки стола.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">44</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">10</param>
+        <param name="Diameter" unit="см">44</param>
+        <dimensions>44/0/10</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="02fd2909-60ef-11e3-b144-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/vazy_chashi_blyuda_kuvshiny_kashpo_menazhnitsy/vazy/set_iz_trekh_vaz_jra_8667s3/</url>
+        <price>9000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>657</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22808/02fd290960ef11e3b14400259032c34f_1bbb44b260f011e3b14400259032c34f.jpg</picture>
+        <name>Сет из трех ваз </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-8667S3</vendorCode>
+        <description>Сет из трех ваз JRA-8667S3</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">4</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="08fe29d6-60ed-11e3-b144-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/posuda/stolovye_servizy_i_nabory/nabor_iz_6_predmetov_jra_8604s6/</url>
+        <price>29000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>678</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22807/08fe29d660ed11e3b14400259032c34f_3167e8b360ed11e3b14400259032c34f.jpg</picture>
+        <name>Набор из 6 предметов </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-8604S6</vendorCode>
+        <description>Набор для вина из 6 предметов JRA-8604S6</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="0a0c2d33-60de-11e3-b144-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/vazy_chashi_blyuda_kuvshiny_kashpo_menazhnitsy/chashi/chasha_jra_8247/</url>
+        <price>9900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>661</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22803/0a0c2d3360de11e3b14400259032c34f_9042d4cb60de11e3b14400259032c34f.jpg</picture>
+        <name>Чаша </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-8247</vendorCode>
+        <description>Чаша JRA-8247</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">45</param>
+        <param name="Diameter" unit="см">11</param>
+        <dimensions>0/0/45</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="0ec9857d-1d78-11e5-ad9e-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/myagkaya_mebel/kresla/kreslo_genevieve_accent_b930_014_a/</url>
+        <price>55000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>699</categoryId>
+        <categoryId>852</categoryId>
+        <categoryId>853</categoryId>
+        <categoryId>855</categoryId>
+        <categoryId>858</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/28277/0ec9857d1d7811e5ad9e00259032c34f_fdf699e5265511e6b9bd00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28277/0ec9857d1d7811e5ad9e00259032c34f_fdf699e4265511e6b9bd00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28277/0ec9857d1d7811e5ad9e00259032c34f_fdf699e3265511e6b9bd00259032c34f.jpg</picture>
+        <name>Кресло Genevieve Accent, </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>B930-014-A</vendorCode>
+        <description>Это стильное и элегантное кресло прекрасно дополнит любой интерьер. Модель изготовлена из древесины березы и выполнена в отделке итальянским орехом.
+Высота сиденья: 48 см.
+
+</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">69</param>
+        <param name="Depth" unit="см">88</param>
+        <param name="Height" unit="см">100</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>69/88/100</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">береза,текстиль</param>
+      </offer>
+      <offer id="14aa9452-f7bb-11e3-9844-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/stulya/stul_so_spinkoy_solana/</url>
+        <price>49000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>714</categoryId>
+        <categoryId>859</categoryId>
+        <categoryId>862</categoryId>
+        <categoryId>863</categoryId>
+        <categoryId>864</categoryId>
+        <categoryId>867</categoryId>
+        <categoryId>868</categoryId>
+        <categoryId>869</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/20059/14aa9452f7bb11e3984400259032c34f_200f0186f7bb11e3984400259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/20059/14aa9452f7bb11e3984400259032c34f_200f0187f7bb11e3984400259032c34f.jpg</picture>
+        <name>Стул со спинкой Solana</name>
+        <vendor>Hooker Furniture</vendor>
+        <vendorCode>5291-75410</vendorCode>
+        <description>Стул из серии Solana с оригинальной спинкой. Составит отличный дуэт с полукреслом из данной колекции.
+• Отделка &quot;натуральное дерево&quot;.
+• Текстильная обивка.
+• Изготовлен из тополя твердой породы и шпона дуба.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">55</param>
+        <param name="Depth" unit="см">66</param>
+        <param name="Height" unit="см">107</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>55/66/107</dimensions>
+        <param name="stock">4</param>
+        <param name="Material">шпон,тополь,дуб,текстиль</param>
+      </offer>
+      <offer id="160343eb-5a26-11e6-9486-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/bufet_winston_358_870/</url>
+        <price>220000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <categoryId>742</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/29115/160343eb5a2611e6948600259032c34f_3b28a0fa5a2611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29115/160343eb5a2611e6948600259032c34f_3b28a0f95a2611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29115/160343eb5a2611e6948600259032c34f_3b28a0f85a2611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29115/160343eb5a2611e6948600259032c34f_3b28a0f75a2611e6948600259032c34f.jpg</picture>
+        <name>Буфет Winston </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>358-870</vendorCode>
+        <description>Этот невероятно стильный буфет обязательно станет яркой частью вашего интерьера. Модель изготовлена из твердой породы дерева и выполнена в немецкой серебряной отделке. За каждой из трех дверц находится по одной регулируемой полке и одному выдвижному ящику...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">183</param>
+        <param name="Depth" unit="см">51</param>
+        <param name="Height" unit="см">86</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>183/51/86</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева</param>
+      </offer>
+      <offer id="188507ca-5af0-11e5-9a8a-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/komod_5374_90002/</url>
+        <price>174977.88</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <categoryId>878</categoryId>
+        <categoryId>880</categoryId>
+        <categoryId>881</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25683/188507ca5af011e59a8a00259032c34f_4224b3265af011e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25683/188507ca5af011e59a8a00259032c34f_4224b3255af011e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25683/188507ca5af011e59a8a00259032c34f_4224b3245af011e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25683/188507ca5af011e59a8a00259032c34f_4224b3235af011e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25683/188507ca5af011e59a8a00259032c34f_4224b3225af011e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25683/188507ca5af011e59a8a00259032c34f_4224b3215af011e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25683/188507ca5af011e59a8a00259032c34f_4224b3205af011e59a8a00259032c34f.jpg</picture>
+        <name>Комод </name>
+        <vendor>Hooker Furniture</vendor>
+        <vendorCode>5374-90002</vendorCode>
+        <description>Элегантный комод со множеством секциий  в темной отделке из коллекции Treviso. Модель изготовлена из твердой породы ели с применением шпона сосны. Комод оснащен девятью легковыдвигаемыми ящиками. В правом верхнем ящике имеется съемный лоток для хранения д...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">183</param>
+        <param name="Depth" unit="см">53</param>
+        <param name="Height" unit="см">100</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>183/53/100</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,ель,сосна</param>
+        <param name="waitingInstock">1</param>
+        <param name="instockDate">31.07.2017 19:15:00</param>
+      </offer>
+      <offer id="18c3c1ac-c956-11e3-9a01-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/kartiny_panno_reproduktsii/panno/interernoe_panno_eye_candy_gbg_0758a/</url>
+        <price>95000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>666</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/20736/18c3c1acc95611e39a0100259032c34f_8bfd12cdd20311e39a0100259032c34f.jpg</picture>
+        <name>Интерьерное панно Eye Candy </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>GBG-0758A</vendorCode>
+        <description>Настенное панно во французском стиле с ручной росписью. В центре расположено специально состаренное зеркало в резном деревянном обрамлении.
+На задней панели уже имеются петли для размещения панно вертикально или горизонтально.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">72</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">132</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>72/0/132</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="1a3935c9-3bd6-11e3-aa21-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_kabinetnye_pismennye_byuro/pismennyy_stol_sevigne/</url>
+        <price>79000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>707</categoryId>
+        <categoryId>753</categoryId>
+        <categoryId>755</categoryId>
+        <categoryId>765</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21912/1a3935c93bd611e3aa2100259032c34f_f6ec65f03ef411e3babc00259032c34f.jpg</picture>
+        <name>Письменный стол Sevigne</name>
+        <vendor>John Richard</vendor>
+        <vendorCode>EUR-02-0144 </vendorCode>
+        <description>Изящный письменный столик выполнен в белой античной отделке, оснащен системой бюро с выдвижными ящиками и открытыми полками. Столешница отделана кожей. Выдвижной ящик декорирован ручкой в форме бронзового листа.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">100</param>
+        <param name="Depth" unit="см">53</param>
+        <param name="Height" unit="см">100</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>100/53/100</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,кожа</param>
+      </offer>
+      <offer id="1adce91c-e829-11e4-9942-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_pristavnye/pristavnoy_stolik_499_621/</url>
+        <price>99000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>709</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/29684/1adce91ce82911e4994200259032c34f_8c6887cabac211e5935200259032c34f.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/29684/1adce91ce82911e4994200259032c34f_24d3a480abff11e6938200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29684/1adce91ce82911e4994200259032c34f_32a01a09abff11e6938200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29684/1adce91ce82911e4994200259032c34f_3d581817abff11e6938200259032c34f.jpg</picture>
+        <name>Приставной столик </name>
+        <vendor>Century Furniture LLC</vendor>
+        <vendorCode>499-621</vendorCode>
+        <description>Прекрасная модель приставного стола Bridgeton. Столик изготовлен из твердой породы клена с применением шпона грецкого ореха. Наконечники на ножках - металлические. Благодаря одному выдвижному ящику и открытому пространству, вы можете удобно хранить необхо...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">62</param>
+        <param name="Depth" unit="см">72</param>
+        <param name="Height" unit="см">75</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>62/72/75</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="20331403-3c78-11e1-8c32-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/vazy_chashi_blyuda_kuvshiny_kashpo_menazhnitsy/vazy/vaza_jra_6902/</url>
+        <price>12500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>657</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/19525/203314033c7811e18c3200259032c34f_620fbf629aca11e3a1a100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19525/203314033c7811e18c3200259032c34f_620fbf639aca11e3a1a100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19525/203314033c7811e18c3200259032c34f_1cee6d6fc19c43d4a5b9430236f6dd13.jpg</picture>
+        <name>Ваза </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-6902</vendorCode>
+        <description>Ваза JRA-6902</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">43</param>
+        <param name="Diameter" unit="см">23</param>
+        <dimensions>0/0/43</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="20331415-3c78-11e1-8c32-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/vazy_chashi_blyuda_kuvshiny_kashpo_menazhnitsy/vazy/vaza_v_shape/</url>
+        <price>12500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>657</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/19529/203314153c7811e18c3200259032c34f_39a88bdf3c7811e18c3200259032c34f.jpg</picture>
+        <name>Ваза V-shape</name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-8353</vendorCode>
+        <description>Ваза из стекла JRA-8353</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="2703f88e-f601-11e2-91e1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/bra/bra_ajc_8767/</url>
+        <price>49500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>719</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/19698/2703f88ef60111e291e100259032c34f_9c2779d3a3e74c54ac8d57333daf4d87.jpg</picture>
+        <name>Бра Agate </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>AJC-8767</vendorCode>
+        <description>Очень красивое и элегантное бра от производителя John Richard. Текстильный абажур кремового цвета. Размер абажура {Ш 48 х Г 13 см}.
+Модель рассчитана на 60 Вт.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">48</param>
+        <param name="Depth" unit="см">13</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>48/13/0</dimensions>
+        <param name="stock">4</param>
+        <param name="Material">текстиль,металл</param>
+      </offer>
+      <offer id="28c0c333-ae49-11e2-ac5a-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/lampy/lampa_nastolnaya_jrl_8197/</url>
+        <price>51666.19584</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>720</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22093/28c0c333ae4911e2ac5a00259032c34f_b96dbc0c19434c3593c926e6447fdfbf.jpg</picture>
+        <name>Лампа настольная </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRL-8197</vendorCode>
+        <description>Лампа в стиле кантри с ажурным основанием из античного железа. Абажур текстильный из льна. Рассчитана на 60 Вт.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">723</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/723</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">железо,лен</param>
+      </offer>
+      <offer id="2b47b05b-9b6d-11e5-98b5-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/mebel_pod_tv/media_konsol_salon_341_860/</url>
+        <price>220917.52704</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>695</categoryId>
+        <categoryId>757</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/26640/2b47b05b9b6d11e598b500259032c34f_a68fb8b89b6d11e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26640/2b47b05b9b6d11e598b500259032c34f_7293c53c9b6d11e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26640/2b47b05b9b6d11e598b500259032c34f_7293c53d9b6d11e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26640/2b47b05b9b6d11e598b500259032c34f_7293c53e9b6d11e598b500259032c34f.jpg</picture>
+        <name>Медиа-консоль Salon </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>341-860</vendorCode>
+        <description>Очаровательная медиа-консоль Salon. Три дверцы декорированы серебряной вставкой. Изящное  Х - основание изготовлено из стали. Для создания модели использовали шпон клена. Комод оснащен тремя выдвижными ящиками, съемными полками и скрытым выходом для элект...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">169</param>
+        <param name="Depth" unit="см">57</param>
+        <param name="Height" unit="см">91</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>169/57/91</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,клен,сталь</param>
+      </offer>
+      <offer id="32c92751-a521-11e3-a1a1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoliki_tualetnye_tumby_prikrovatnye/tumba_empire_ii_night_stand/</url>
+        <price>32500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>705</categoryId>
+        <categoryId>823</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21578/32c92751a52111e3a1a100259032c34f_32c92753a52111e3a1a100259032c34f.jpg</picture>
+        <name>Тумба Empire II Night Stand</name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>3063-453</vendorCode>
+        <description>Вместительная прикроватная тумба светлого оттенка, выполнена в классическом стиле, в отделке использована фигурная металлическая фурнитура.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">76</param>
+        <param name="Depth" unit="см">48</param>
+        <param name="Height" unit="см">79</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>76/48/79</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">твердая порода дерева,металл</param>
+      </offer>
+      <offer id="389d4c30-9128-11e5-b152-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/zerkala/zerkalo_jet_set_356_321/</url>
+        <price>55674.78</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>662</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25976/389d4c30912811e5b15200259032c34f_e4ddb851912811e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25976/389d4c30912811e5b15200259032c34f_e4ddb852912811e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25976/389d4c30912811e5b15200259032c34f_e4ddb853912811e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25976/389d4c30912811e5b15200259032c34f_e4ddb854912811e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25976/389d4c30912811e5b15200259032c34f_e4ddb855912811e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25976/389d4c30912811e5b15200259032c34f_e4ddb856912811e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25976/389d4c30912811e5b15200259032c34f_e4ddb857912811e5b15200259032c34f.jpg</picture>
+        <name>Зеркало Jet Set </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>356-321</vendorCode>
+        <description>Зеркало Jet Set в красивой крупной раме. Оригинальная рама изготовлена из дерева и выполнена в отделке caviar. Изделие можно использовать как в горизонтальном, так и в вертикальном положении.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">97</param>
+        <param name="Depth" unit="см">4</param>
+        <param name="Height" unit="см">122</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>97/4/122</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">зеркало,дерево</param>
+      </offer>
+      <offer id="42411c2b-3422-11e4-9ca9-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stol_cf_0899x/</url>
+        <price>280000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>702</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/40231/42411c2b342211e49ca900259032c34f_b6dcdf92afcf11e6b2cd00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/40231/42411c2b342211e49ca900259032c34f_187a2babafcd11e6b2cd00259032c34f.jpg</picture>
+        <name>Стол </name>
+        <vendor>Chaddock</vendor>
+        <vendorCode>CF 0899X</vendorCode>
+        <description>Стол CF 0899X</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">200</param>
+        <param name="Depth" unit="см">112</param>
+        <param name="Height" unit="см">77</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>200/112/77</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="49938cef-31ea-11e5-9fed-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/komod_salon_341_119/</url>
+        <price>139000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/26648/49938cef31ea11e59fed00259032c34f_307439949b6711e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26648/49938cef31ea11e59fed00259032c34f_307439959b6711e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26648/49938cef31ea11e59fed00259032c34f_307439969b6711e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26648/49938cef31ea11e59fed00259032c34f_307439979b6711e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26648/49938cef31ea11e59fed00259032c34f_307439989b6711e598b500259032c34f.jpg</picture>
+        <name>Комод Salon </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>341-119</vendorCode>
+        <description>Великолепный комод Salon в стильной светлой отделке. Модель имеет восемь выдвижных ящиков для удобства и скрытый выход для электрических проводов. Комод изготовлен с применением шпона клена. Изделие отлично подойдет для современного интерьера.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">139</param>
+        <param name="Depth" unit="см">48</param>
+        <param name="Height" unit="см">111</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>139/48/111</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">шпон,клен</param>
+      </offer>
+      <offer id="4c8cf1b3-9b6a-11e5-98b5-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/komod_salon_341_042/</url>
+        <price>129900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <categoryId>878</categoryId>
+        <categoryId>880</categoryId>
+        <categoryId>881</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/26639/4c8cf1b39b6a11e598b500259032c34f_9c8a30899b6a11e598b500259032c34f.jpg</picture>
+        <name>Комод Salon </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>341-042</vendorCode>
+        <description>Стильный, элегантный комод Salon на изящных ножках. Модель изготовлена из шпона клена и выполнена в белой отделке. Декорирована металлической инкрустацией. Комод оснащен семью ящиками, разной величины.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">173</param>
+        <param name="Depth" unit="см">51</param>
+        <param name="Height" unit="см">94</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>173/51/94</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,клен</param>
+      </offer>
+      <offer id="4d0c064e-dfe3-11e2-be72-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_pristavnye/stol_bazille_a531_360/</url>
+        <price>42000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>709</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/40257/4d0c064edfe311e2be7200259032c34f_a2ba42ae793d494fa114a6e6a50ba2a2.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/40257/4d0c064edfe311e2be7200259032c34f_770e731ea7444574b0332939eb61dc32.jpg</picture>
+        <name>Стол Bazille </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>A531-360</vendorCode>
+        <description>Приставной столик из деревянной столешницы со стеклянной столешницей.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">71</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/71</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="4d0c0654-dfe3-11e2-be72-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_pristavnye/stol_rachel_a871_300/</url>
+        <price>37168.02864</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>709</categoryId>
+        <categoryId>877</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/23258/4d0c0654dfe311e2be7200259032c34f_56aa39e51cfc418889cb2895876491bb.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23258/4d0c0654dfe311e2be7200259032c34f_f08677fab7a411e6b2cd00259032c34f.jpg</picture>
+        <name>Приставной столик из коллекции Rachel, </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>A871-300</vendorCode>
+        <description>Изящный приставной столик с богатой ажурной резьбой и ножками кабриоли. Квадратный топ имеет вставку из прозрачного стекла. Модель изготовлена из твердой породы азиатской древесины и смолы. Коричневая отделка.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">70</param>
+        <param name="Depth" unit="см">70</param>
+        <param name="Height" unit="см">61</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>70/70/61</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,стекло</param>
+      </offer>
+      <offer id="508b3bd1-911a-11e5-b152-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/komod_jet_set_356_051/</url>
+        <price>189294.252</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <categoryId>878</categoryId>
+        <categoryId>880</categoryId>
+        <categoryId>881</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25966/508b3bd1911a11e5b15200259032c34f_7bd6c8ab911a11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25966/508b3bd1911a11e5b15200259032c34f_7bd6c8ac911a11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25966/508b3bd1911a11e5b15200259032c34f_7bd6c8ad911a11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25966/508b3bd1911a11e5b15200259032c34f_7bd6c8ae911a11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25966/508b3bd1911a11e5b15200259032c34f_7bd6c8af911a11e5b15200259032c34f.jpg</picture>
+        <name>Комод Jet Set </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>356-051</vendorCode>
+        <description>Великолепный комод Jet Set на ножках . Модель имеет девять легко выдвигаемых ящиков в отделке из белой кожи с декоративными ручками. Комод изготовлен из шпона сапеле в отделке Caviar.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">174</param>
+        <param name="Depth" unit="см">51</param>
+        <param name="Height" unit="см">97</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>174/51/97</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,кожа</param>
+      </offer>
+      <offer id="51078e7d-dd79-11e2-be72-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/stulya/stul_new_london_3052_163/</url>
+        <price>36056.048</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>714</categoryId>
+        <categoryId>859</categoryId>
+        <categoryId>862</categoryId>
+        <categoryId>863</categoryId>
+        <categoryId>864</categoryId>
+        <categoryId>867</categoryId>
+        <categoryId>868</categoryId>
+        <categoryId>869</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/23192/51078e7ddd7911e2be7200259032c34f_fbe72f4fa73548fab8ba54d1d29fd242.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23192/51078e7ddd7911e2be7200259032c34f_3089fe36f55a4c9c8bd7f5ebfacc62ce.jpg</picture>
+        <name>Стул New London </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>3052-163</vendorCode>
+        <description>Стул из коллекции New London с резной спинкой, отделанной текстилем и украшенной гвоздиками с широкой шляпкой. Высота сиденья составляет 48 см., глубина 49 см., ширина 53 см.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">53</param>
+        <param name="Depth" unit="см">63</param>
+        <param name="Height" unit="см">107</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>53/63/107</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="51078e82-dd79-11e2-be72-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/stulya/stul_cobblestone_8552_173/</url>
+        <price>20000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>714</categoryId>
+        <categoryId>859</categoryId>
+        <categoryId>860</categoryId>
+        <categoryId>861</categoryId>
+        <categoryId>864</categoryId>
+        <categoryId>869</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/23194/51078e82dd7911e2be7200259032c34f_030e4014c4b841b89cf5fc2447e982a1.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23194/51078e82dd7911e2be7200259032c34f_11fe65c84f4f4f50876936d1010f28a5.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23194/51078e82dd7911e2be7200259032c34f_a05f4e969ca84ef595e524e0c8824f67.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23194/51078e82dd7911e2be7200259032c34f_f6e6682cdbdf45f7833881f1156fe52b.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23194/51078e82dd7911e2be7200259032c34f_2076bf3cce434183afbacd3673b99cf3.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23194/51078e82dd7911e2be7200259032c34f_a18016eba7264e808ffb3b702df9dce3.jpg</picture>
+        <name>Стул из коллекции Cobblestone, </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>8552-173</vendorCode>
+        <description>Комфортный стул из коллекции Cobblestone подойдет как для кухни и гостиной, так и для загородного дома. Спинка и сиденье стула обиты мягким текстилем. Высота сиденья: 50 см; Глубина сиденья: 50 см;
+Ширина сиденья: 52 см.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">51</param>
+        <param name="Depth" unit="см">62</param>
+        <param name="Height" unit="см">104</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>51/62/104</dimensions>
+        <param name="stock">8</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="53bc839a-4391-11e6-9d61-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/polukresla/polukreslo_soho_luxe_368_548/</url>
+        <price>80050.4864</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>713</categoryId>
+        <categoryId>774</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/28700/53bc839a439111e69d6100259032c34f_63611b6e439111e69d6100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28700/53bc839a439111e69d6100259032c34f_63611b6d439111e69d6100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28700/53bc839a439111e69d6100259032c34f_63611b6c439111e69d6100259032c34f.jpg</picture>
+        <name>Полукресло Soho Luxe </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>368-548</vendorCode>
+        <description>Великолепное полукресло из коллекции Soho Luxe. Такая модель будет отлично смотреться и за письменным столом, и за обеденным. Деревянная основа выполнена в темно-карамельной отделке. </description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">60</param>
+        <param name="Depth" unit="см">70</param>
+        <param name="Height" unit="см">101</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>60/70/101</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="53d64bf2-57a3-11e5-9efa-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/podsvechniki/podsvechnik_zacaria_19913/</url>
+        <price>29000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>673</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/24499/53d64bf257a311e59efa00259032c34f_65a03cd157a311e59efa00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24499/53d64bf257a311e59efa00259032c34f_65a03cd257a311e59efa00259032c34f.jpg</picture>
+        <name>Подсвечник Zacaria </name>
+        <vendor>Uttermost</vendor>
+        <vendorCode>19913</vendorCode>
+        <description>Великолепный напольный подсвечник в &quot;состаренной&quot; черной отделке с темно-серыми акцентами, отлично подойдет тем, кто хочет просто преобразить свой дом с помощью оригинальных аксессуаров. Подсвечник с шестью свечами, прекрасно впишется в классический интер...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">89</param>
+        <param name="Depth" unit="см">25</param>
+        <param name="Height" unit="см">97</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>89/25/97</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">металл</param>
+      </offer>
+      <offer id="56417bd0-cce4-11e2-9f12-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/polukresla/polukreslo_empire_ii_1/</url>
+        <price>19990</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>713</categoryId>
+        <categoryId>775</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21368/56417bd0cce411e29f1200259032c34f_33786f4acc4e46c28f4f14090dd10234.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/21368/56417bd0cce411e29f1200259032c34f_96d4691c4d614b7599486cc7105eb5e1.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/21368/56417bd0cce411e29f1200259032c34f_5cf67bfd961349afa59e4c525c838c48.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/21368/56417bd0cce411e29f1200259032c34f_f883fa1e01c8418e8fd653eea625ee30.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/21368/56417bd0cce411e29f1200259032c34f_6d4612e7460e46bc9e41914322d5f483.png</picture>
+        <name>Полукресло Empire II </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>3062-152</vendorCode>
+        <description>Полукресло из коллекции Empire II произведет неизгладимое впечатление на ваших гостей уникальным дизайном искусной резьбы тонкой ручной работы. Эта коллекция предлагает широкий выбор стульев для завершения вашей столовой. Глубина сиденья: 50 см.
+Высота с...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">64</param>
+        <param name="Depth" unit="см">69</param>
+        <param name="Height" unit="см">104</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>64/69/104</dimensions>
+        <param name="stock">3</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="56f08733-8f96-11e5-b152-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/shkafy/shkaf_jet_set_356_350/</url>
+        <price>288427.17456</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>717</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25952/56f087338f9611e5b15200259032c34f_84cc02c28f9611e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25952/56f087338f9611e5b15200259032c34f_84cc02c38f9611e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25952/56f087338f9611e5b15200259032c34f_84cc02c48f9611e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25952/56f087338f9611e5b15200259032c34f_84cc02c58f9611e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25952/56f087338f9611e5b15200259032c34f_84cc02c68f9611e5b15200259032c34f.jpg</picture>
+        <name>Шкаф Jet Set </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>356-350</vendorCode>
+        <description>Великолепный стильный шкаф Jet Set с декорированными зеркальными дверями. • Изготовлен из шпона Sapele.
+• Выполнен в отделке Caviar. • Четыре выдвижных ящика.
+• Регулируемые полки.
+• Внутренняя вентиляция.
+• Скрытый выход для электрических проводов.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">127</param>
+        <param name="Depth" unit="см">50</param>
+        <param name="Height" unit="см">208</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>127/50/208</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">шпон,зеркало</param>
+      </offer>
+      <offer id="56f79156-c9f8-11e3-9a01-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/shkatulki_korobki_konteynery/shkatulka_jra_9188_/</url>
+        <price>9900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>687</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/20742/56f79156c9f811e39a0100259032c34f_2630dddcd44411e3b3e200259032c34f.jpg</picture>
+        <name>Шкатулка </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-9188 </vendorCode>
+        <description>Шкатулка с откидной верхней частью в серебряной отделке с латунной ручкой на ножках их никеля.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">17</param>
+        <param name="Depth" unit="см">17</param>
+        <param name="Height" unit="см">38</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>17/17/38</dimensions>
+        <param name="stock">3</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="57987bf7-911f-11e5-b152-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/mebel_pod_tv/media_konsol_jet_set_356_860/</url>
+        <price>183758.58816</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>695</categoryId>
+        <categoryId>758</categoryId>
+        <categoryId>757</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25969/57987bf7911f11e5b15200259032c34f_7c3238c9911f11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25969/57987bf7911f11e5b15200259032c34f_7c3238ca911f11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25969/57987bf7911f11e5b15200259032c34f_7c3238cb911f11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25969/57987bf7911f11e5b15200259032c34f_7c3238cc911f11e5b15200259032c34f.jpg</picture>
+        <name>Медиа-консоль Jet Set </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>356-860</vendorCode>
+        <description>Оригинальная медиа-консоль Jet Set изготовлена из шпона сапеле и выполнена в отделке caviar. Модель оснащена одной открытой полкой; тремя дверцами с белыми кожаными панелями и золотыми ручками; регулируемыми полками; внутренней вентиляцией и отверстиями д...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">163</param>
+        <param name="Depth" unit="см">53</param>
+        <param name="Height" unit="см">81</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>163/53/81</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,кожа</param>
+        <param name="waitingInstock">1</param>
+        <param name="instockDate">05.09.2017 19:15:00</param>
+      </offer>
+      <offer id="5aa5d740-8f7f-11e5-b152-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_obedennye/obedennyy_stol_jet_set_round_356_772_356_771/</url>
+        <price>154807.70256</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>708</categoryId>
+        <categoryId>842</categoryId>
+        <categoryId>843</categoryId>
+        <categoryId>845</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25950/5aa5d7408f7f11e5b15200259032c34f_6acb87d78f7f11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25950/5aa5d7408f7f11e5b15200259032c34f_6acb87d88f7f11e5b15200259032c34f.jpg</picture>
+        <name>Обеденный стол Jet Set Round </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>356-772, 356-771</vendorCode>
+        <description>Невероятно стильный и яркий обеденный стол из коллекции Jet Set. Такой стол станет настоящей изюминкой любого интерьера, за ним будет приятно проводить семейные вечера и дружеские посиделки. Очаровательная круглая столешница изготовлена из шпона сапеле, с...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">76</param>
+        <param name="Diameter" unit="см">152</param>
+        <dimensions>0/0/76</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,металл</param>
+        <param name="waitingInstock">1</param>
+        <param name="instockDate">05.09.2017 19:15:00</param>
+      </offer>
+      <offer id="5ae63e6d-57d8-11e5-9efa-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoliki_tualetnye_tumby_prikrovatnye/prikrovatnaya_tumba_5398_90016/</url>
+        <price>81444.2496</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>705</categoryId>
+        <categoryId>823</categoryId>
+        <categoryId>824</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25634/5ae63e6d57d811e59efa00259032c34f_83f304ff57d811e59efa00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25634/5ae63e6d57d811e59efa00259032c34f_83f304fe57d811e59efa00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25634/5ae63e6d57d811e59efa00259032c34f_83f304fd57d811e59efa00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25634/5ae63e6d57d811e59efa00259032c34f_83f304fc57d811e59efa00259032c34f.jpg</picture>
+        <name>Прикроватная тумба </name>
+        <vendor>Hooker Furniture</vendor>
+        <vendorCode>5398-90016</vendorCode>
+        <description>Классического дизайна, прикроватная тумба из коллекции Studio 7H. Модель изготовлена из твердой породы каучука с применением шпона грецкого ореха и выполнена в деревянной отделке. Столик оснащен двумя выдвижными ящками.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">64</param>
+        <param name="Depth" unit="см">51</param>
+        <param name="Height" unit="см">66</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>64/51/66</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,каучук,грецкий орех,металл</param>
+        <param name="waitingInstock">1</param>
+        <param name="instockDate">31.07.2017 19:15:00</param>
+      </offer>
+      <offer id="5b00cd94-8cde-11e4-814d-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/lyustry/lyustra_ajc_8815/</url>
+        <price>85000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>721</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/18207/5b00cd948cde11e4814d00259032c34f_5b00cd958cde11e4814d00259032c34f.jpg</picture>
+        <name>Люстра </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>AJC-8815</vendorCode>
+        <description>Одиннадцатирожковая люстра в золотой отделке, декорированная кристаллами.
+Рассчитана на 60Вт.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">69</param>
+        <param name="Diameter" unit="см">91</param>
+        <dimensions>0/0/69</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">текстиль,металл,хрусталь</param>
+      </offer>
+      <offer id="5bf2a157-a5a5-11e2-af1f-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/lyustry/lyustra_silver_plated_small_ajc_8529/</url>
+        <price>62000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>721</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22391/5bf2a157a5a511e2af1f00259032c34f_19c71eaf2b57491b9eaedaa5088a7236.jpg</picture>
+        <name>Люстра Silver Plated Small </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>AJC-8529</vendorCode>
+        <description>4-х рожковая люстра. Верхнее покрытие выполнено из серебра.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">72</param>
+        <param name="Diameter" unit="см">46</param>
+        <dimensions>0/0/72</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">металл,хрусталь</param>
+      </offer>
+      <offer id="5c1084bf-843d-11e4-b361-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_pristavnye/pristavnoy_stol_haven_346_121a/</url>
+        <price>38558.76192</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>709</categoryId>
+        <categoryId>876</categoryId>
+        <categoryId>877</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22901/5c1084bf843d11e4b36100259032c34f_64d7a807843d11e4b36100259032c34f.jpg</picture>
+        <name>Приставной стол Haven </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>346-121A</vendorCode>
+        <description>Дивный приставной стол Haven на высоких ножках. Стол изготовлен из шпона грецкого ореха. Основа стола выполнена в отделке Raven, а столешница в отделке Cameo.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">69</param>
+        <param name="Diameter" unit="см">56</param>
+        <dimensions>0/0/69</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,грецкий орех</param>
+      </offer>
+      <offer id="5e0e0e6c-98fa-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/lampy/lampa_jrl_8306/</url>
+        <price>209782.57104</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>720</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21641/5e0e0e6c98fa11e1a3c100259032c34f_27b8222fdbcc460a9272cb51c906a0b2.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/21641/5e0e0e6c98fa11e1a3c100259032c34f_5e0e0e6d98fa11e1a3c100259032c34f.jpg</picture>
+        <name>Лампа (В91) </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRL-8306</vendorCode>
+        <description>Лампа</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">керамика,текстиль</param>
+      </offer>
+      <offer id="60aea5e8-25ab-11e6-b9bd-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_zhurnalnye_kofeynye_kokteylnye/zhurnalnyy_stol_irving_336_012/</url>
+        <price>48781.712</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>706</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/38990/60aea5e825ab11e6b9bd00259032c34f_c4c939783bbf11e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/38990/60aea5e825ab11e6b9bd00259032c34f_c4c939773bbf11e7ad7700259032c34f.jpg</picture>
+        <name>Журнальный стол Irving </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>336-012</vendorCode>
+        <description>Стильный дизайн, великолепная отделка &quot;portobello&quot;, такой столик отлично подойдет для современного интерьера. Его можно использовать и как приставной, и как журнальный.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">60</param>
+        <param name="Depth" unit="см">60</param>
+        <param name="Height" unit="см">45</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>60/60/45</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева</param>
+      </offer>
+      <offer id="626ba927-cae4-11e4-bb18-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/zerkala/zerkalo_salon_341_322g/</url>
+        <price>57200</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>662</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/26678/626ba927cae411e4bb1800259032c34f_71360ce3d79111e492aa00259032c34f.jpg</picture>
+        <name>Зеркало Salon </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>341-322G</vendorCode>
+        <description>Зеркало Salon — стильная и красивая модель. Необычная рама декорирована вставками из зеркального стекла и выполнена в античной золотой отделке.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">97</param>
+        <param name="Depth" unit="см">4</param>
+        <param name="Height" unit="см">97</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>97/4/97</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">зеркало</param>
+      </offer>
+      <offer id="6528a392-4493-11e3-babc-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/krovati/krovat_st_james_place_a933_352/</url>
+        <price>99000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>693</categoryId>
+        <categoryId>825</categoryId>
+        <categoryId>826</categoryId>
+        <categoryId>827</categoryId>
+        <categoryId>830</categoryId>
+        <categoryId>832</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22987/6528a392449311e3babc00259032c34f_84918a4a449411e3babc00259032c34f.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/22987/6528a392449311e3babc00259032c34f_84918a4b449411e3babc00259032c34f.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/22987/6528a392449311e3babc00259032c34f_84918a4c449411e3babc00259032c34f.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/22987/6528a392449311e3babc00259032c34f_84918a4d449411e3babc00259032c34f.png</picture>
+        <name>Кровать размера King из колеекции St. James Place,  </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>A933-352</vendorCode>
+        <description>Эта кровать - настоящее произведение искусства. Изголовье изготовлено в каретной стежке капитоне из натурального золотистого шелка. Царга кровати и ушки изголовья отделаны кожей под крокодила и декорированы гвоздиками с широкой шляпкой. При изготовлении м...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">212</param>
+        <param name="Depth" unit="см">226</param>
+        <param name="Height" unit="см">168</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>212/226/168</dimensions>
+        <param name="stock">3</param>
+        <param name="Material">шпон,твердая порода дерева,кожа,шелк</param>
+      </offer>
+      <offer id="664414a1-0128-11e5-b0a0-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_jrb_2931w/</url>
+        <price>9900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22793/664414a1012811e5b0a000259032c34f_8b3c42f9012811e5b0a000259032c34f.jpg</picture>
+        <name>Цветочная композиция </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2931W</vendorCode>
+        <description>Прекрасная цветочная композиция из распустившихся пышных пионов в стеклянной вазе, наполненной специальным гелем, который имитирует настоящую воду.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">58</param>
+        <param name="Depth" unit="см">33</param>
+        <param name="Height" unit="см">46</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>58/33/46</dimensions>
+        <param name="stock">3</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="66b1d95b-7e7c-11e6-af6b-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_obedennye/obedennyy_stol_soho_luxe_368_774_368_775/</url>
+        <price>134600</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>708</categoryId>
+        <categoryId>843</categoryId>
+        <categoryId>845</categoryId>
+        <categoryId>842</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/34510/66b1d95b7e7c11e6af6b00259032c34f_a98d0f8f7e7d11e6af6b00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/34510/66b1d95b7e7c11e6af6b00259032c34f_a98d0f907e7d11e6af6b00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/34510/66b1d95b7e7c11e6af6b00259032c34f_a98d0f917e7d11e6af6b00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/34510/66b1d95b7e7c11e6af6b00259032c34f_a98d0f927e7d11e6af6b00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/34510/66b1d95b7e7c11e6af6b00259032c34f_a98d0f937e7d11e6af6b00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/34510/66b1d95b7e7c11e6af6b00259032c34f_b749f47e7e7d11e6af6b00259032c34f.jpg</picture>
+        <name>Обеденный стол Soho Luxe, </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>368-774, 368-775</vendorCode>
+        <description>Очень красивый обеденный стол из коллекции Soho Luxe. Модель изготовлена из полированной нержавеющей стали и шпона белого ясеня, выполнена в темно-карамельной отделке.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">152.4</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">76</param>
+        <param name="Diameter" unit="см">152</param>
+        <dimensions>152.4/0/76</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,ясень,сталь</param>
+      </offer>
+      <offer id="68c61735-5ab1-11e5-9a8a-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/myagkaya_mebel/banketki_pufy_ottomanki/banketka_miramont_360_508/</url>
+        <price>55674.78</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>697</categoryId>
+        <categoryId>883</categoryId>
+        <categoryId>884</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/24532/68c617355ab111e59a8a00259032c34f_68c617365ab111e59a8a00259032c34f.jpg</picture>
+        <name>Банкетка Miramont </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>360-508</vendorCode>
+        <description>Изящный силуэт, четкие линии, великолепная мягкая обивка, прекрасная отделка. Банкетка Miramont несомненно станет чудесным дополнением к интерьеру.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">143</param>
+        <param name="Depth" unit="см">44</param>
+        <param name="Height" unit="см">49</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>143/44/49</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+        <param name="waitingInstock">1</param>
+        <param name="instockDate">05.09.2017 19:15:00</param>
+      </offer>
+      <offer id="71b8f7ca-5a42-11e1-8463-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/vazy_chashi_blyuda_kuvshiny_kashpo_menazhnitsy/vazy/vaza_oxidized_big/</url>
+        <price>25000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>657</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/18433/71b8f7ca5a4211e1846300259032c34f_d4a03ee5bf134cd9b117d6c210d5ae07.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/18433/71b8f7ca5a4211e1846300259032c34f_842dab1a5a6811e1846300259032c34f.jpg</picture>
+        <name>Ваза Oxidized big</name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-8397</vendorCode>
+        <description>Большая ваза. На фото слева.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="71b8f7cf-5a42-11e1-8463-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/kally/</url>
+        <price>14000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/18435/71b8f7cf5a4211e1846300259032c34f_842dab1f5a6811e1846300259032c34f.jpg</picture>
+        <name>Каллы</name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2688W</vendorCode>
+        <description>Декоративная настольная композиция из калл в вазе из плотного темного стекла с имитацией воды.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="74689c58-57a2-11e5-9efa-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/statuetki/statuetka_welcome_home_19492/</url>
+        <price>9000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>680</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/24498/74689c5857a211e59efa00259032c34f_8106788357a211e59efa00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24498/74689c5857a211e59efa00259032c34f_8106788457a211e59efa00259032c34f.jpg</picture>
+        <name>Статуэтка Welcome Home </name>
+        <vendor>Uttermost</vendor>
+        <vendorCode>19492</vendorCode>
+        <description>Нежность и красота такого сувенира будет приятна каждому, кто приезжает или возращается в родной дом -  получить в подарок такой трогательный знак внимания – очень мило и необычно.Статуэтка выполнена в патинированной бронзовой отделке с глазурью.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">25</param>
+        <param name="Depth" unit="см">20</param>
+        <param name="Height" unit="см">51</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>25/20/51</dimensions>
+        <param name="stock">4</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="748160b9-50ef-11e6-9486-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stellazhi/stellazh_benton_340_129/</url>
+        <price>145000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>701</categoryId>
+        <categoryId>760</categoryId>
+        <categoryId>761</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/28937/748160b950ef11e6948600259032c34f_7ffa8eba50ef11e6948600259032c34f.jpg</picture>
+        <name>Стеллаж Benton </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>340-129</vendorCode>
+        <description>Очаровательный и очень стильный стеллаж Benton. Модель изготовлена из стали в латунной отделке. Деревянные полки выполнены в глянцевой черной отделке. </description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">123</param>
+        <param name="Depth" unit="см">36</param>
+        <param name="Height" unit="см">224</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>123/36/224</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,сталь</param>
+      </offer>
+      <offer id="74fa469c-3c71-11e1-8c32-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/aksessuary_dlya_pismennogo_stola/nozh_dlya_bumagi/</url>
+        <price>3841</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>653</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/19512/74fa469c3c7111e18c3200259032c34f_fba9c85df85e11e3984400259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19512/74fa469c3c7111e18c3200259032c34f_fba9c85ef85e11e3984400259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19512/74fa469c3c7111e18c3200259032c34f_fba9c85ff85e11e3984400259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19512/74fa469c3c7111e18c3200259032c34f_fba9c860f85e11e3984400259032c34f.jpg</picture>
+        <name>Нож для бумаги</name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-6371</vendorCode>
+        <description>Оригинальный металлический нож для открытия писем является стильным аксессуаром рабочего стола делового человека.  Для тех, кто ценит практичность, элегантность и престижность настольных кабинетных  принадлежностей, Vintage Dеcor предлагает только лучшее!</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="753fb8e8-4521-11e6-9d61-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_pristavnye/pristavnoy_stol_sutton_house_367_124/</url>
+        <price>47993.9328</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>709</categoryId>
+        <categoryId>877</categoryId>
+        <categoryId>876</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/28726/753fb8e8452111e69d6100259032c34f_7b4d092b452111e69d6100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28726/753fb8e8452111e69d6100259032c34f_7b4d092a452111e69d6100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28726/753fb8e8452111e69d6100259032c34f_7b4d0929452111e69d6100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28726/753fb8e8452111e69d6100259032c34f_7b4d0928452111e69d6100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28726/753fb8e8452111e69d6100259032c34f_7b4d0927452111e69d6100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28726/753fb8e8452111e69d6100259032c34f_7b4d0926452111e69d6100259032c34f.jpg</picture>
+        <name>Приставной стол Sutton House </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>367-124</vendorCode>
+        <description>Великолепный и очень стильный приставной стол из коллекции Sutton House. Модель выполнена в темной отделке, при изготовлении используется шпон примаверы. Столик оснащен двумя открытыми полками и одним выдвижным ящиком. Он будет чудесно смотреться в любой ...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">49</param>
+        <param name="Depth" unit="см">49</param>
+        <param name="Height" unit="см">66</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>49/49/66</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон</param>
+      </offer>
+      <offer id="776f8d2f-e4d4-11e4-92aa-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/stulya/stul_mystique_b032_162/</url>
+        <price>75193.52464</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>714</categoryId>
+        <categoryId>859</categoryId>
+        <categoryId>861</categoryId>
+        <categoryId>863</categoryId>
+        <categoryId>864</categoryId>
+        <categoryId>868</categoryId>
+        <categoryId>869</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/19783/776f8d2fe4d411e492aa00259032c34f_810e27e1e4d411e492aa00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19783/776f8d2fe4d411e492aa00259032c34f_810e27e0e4d411e492aa00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19783/776f8d2fe4d411e492aa00259032c34f_810e27dfe4d411e492aa00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19783/776f8d2fe4d411e492aa00259032c34f_810e27dee4d411e492aa00259032c34f.jpg</picture>
+        <name>Стул из коллекции Mystique, </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>B032-162</vendorCode>
+        <description>Прекрасный мягкий стул с удобной спинкой в нейтральных тонах из коллекции Mystique. Спинка стула декорирована акриловой вставкой и гвоздиками со светлой шляпкой. Конические ножки оснащены металлическими наконечниками. Модель изготовлена из древесины топол...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">66</param>
+        <param name="Depth" unit="см">66</param>
+        <param name="Height" unit="см">97</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>66/66/97</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,тополь,текстиль</param>
+      </offer>
+      <offer id="7b9cef59-4146-11e7-ad77-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/myagkaya_mebel/kresla/kreslo_pascal_n2062/</url>
+        <price>138921.832</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>699</categoryId>
+        <categoryId>855</categoryId>
+        <categoryId>858</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/39252/7b9cef59414611e7ad7700259032c34f_88e0aae2414611e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/39252/7b9cef59414611e7ad7700259032c34f_88e0aae1414611e7ad7700259032c34f.jpg</picture>
+        <name>Кресло Pascal </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>N2062</vendorCode>
+        <description>Кресло Pascal с уютной высокой спинкой и мягким сиденьем. Это кресло станет зоной комфорта в помещении. Ножки кресла выполнены в отделке мокка. Высота сиденья: 48 см;
+Высота подлокотников: 57 см.
+Модель доступна в кожаной обивке арт. N2062L, а также прои...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">81</param>
+        <param name="Depth" unit="см">94</param>
+        <param name="Height" unit="см">118</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>81/94/118</dimensions>
+        <param name="stock">5</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="82700039-da55-11e2-be72-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/zerkala/zerkalo_river_run_8563_210/</url>
+        <price>19900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>662</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/23179/82700039da5511e2be7200259032c34f_621c3f027d3c4d3a9c858207289ef7be.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23179/82700039da5511e2be7200259032c34f_7500b72a48e4427b956b46631e0a748a.jpg</picture>
+        <name>Зеркало Cow Hide, </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>8563-210</vendorCode>
+        <description>Великолепное зеркало из коллекции River Run будет отлично смотреться в любом интерьере. Прямоугольная рама в черном цвете изготовлена из древесины сосны и обтянута обработанной шкурой. Зеркало может использоваться как горизонтально, так и вертикально.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">132</param>
+        <param name="Depth" unit="см">7</param>
+        <param name="Height" unit="см">97</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>132/7/97</dimensions>
+        <param name="stock">3</param>
+        <param name="Material">твердая порода дерева,сосна,зеркало</param>
+      </offer>
+      <offer id="8a120019-639a-11e1-8463-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/statuetki/aksessuar_balerina/</url>
+        <price>45000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>680</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/18457/8a120019639a11e1846300259032c34f_82336fe7a8c54bda90a7f7052913416e.jpg</picture>
+        <name>Аксессуар &quot;Балерина&quot;</name>
+        <vendor>Maitland Smith </vendor>
+        <vendorCode>1054-933</vendorCode>
+        <description>Аксессуар &quot;Балерина&quot; 1054-933</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">28</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">41</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>28/0/41</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="9021062e-b660-11e4-9a23-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/lyustry/lyustra_vicentina_22031/</url>
+        <price>75000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>721</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/20859/9021062eb66011e49a2300259032c34f_9021062fb66011e49a2300259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/20859/9021062eb66011e49a2300259032c34f_90210630b66011e49a2300259032c34f.jpg</picture>
+        <name>Люстра Vicentina </name>
+        <vendor>Uttermost</vendor>
+        <vendorCode>22031</vendorCode>
+        <description>Такая люстра несомненно добавит шика и блеска в любой интерьер. Люстра выполнена в виде сферы и декорирована кристаллами. Рассчитана на лампочки: 6 х 60 W.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">74</param>
+        <param name="Diameter" unit="см">56</param>
+        <dimensions>0/0/74</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">металл,хрусталь</param>
+      </offer>
+      <offer id="9454783d-89d8-11e4-814d-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/statuetki/statuetka_karl_lagerfeld_toki_black/</url>
+        <price>15750</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>680</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/18108/9454783d89d811e4814d00259032c34f_9454783e89d811e4814d00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/18108/9454783d89d811e4814d00259032c34f_a5d2b90289d811e4814d00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/18108/9454783d89d811e4814d00259032c34f_a5d2b90189d811e4814d00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/18108/9454783d89d811e4814d00259032c34f_a5d2b90089d811e4814d00259032c34f.jpg</picture>
+        <name>Статуэтка Karl Lagerfeld Toki Black</name>
+        <vendor>Welton London</vendor>
+        <vendorCode>TOKIDOKI</vendorCode>
+        <description>Карл Отто Лагерфельд - немецкий модельер и фотограф.
+•Фигурка Карла выполнена из матового винила с лаковыми акцентами на очках, перчатках и сапогах. •Фигурка стоит на постаменте, украшенном стразами.
+• Подлинная фигурка TOKIDOKI.
+Бренд создан итальянским ...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">11.5</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">25</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>11.5/0/25</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="962f170b-ce1a-11e4-bb18-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/stulya/stul_side_chair_346_541/</url>
+        <price>29000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>869</categoryId>
+        <categoryId>864</categoryId>
+        <categoryId>714</categoryId>
+        <categoryId>861</categoryId>
+        <categoryId>863</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/38048/962f170bce1a11e4bb1800259032c34f_2c1af884ce1b11e4bb1800259032c34f.jpg</picture>
+        <name>Стул Haven </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>346-541</vendorCode>
+        <description>Стильный, элегантный стул Haven от производителя Bernhardt. Деревянные ножки выполнены в отделке haven brunette. Сиденье и спинка обиты мягким текстилем. Высота сиденья: 48 см.
+Модель производится в разных вариантах обивки, обратите внимание, цены на раз...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">53</param>
+        <param name="Depth" unit="см">66</param>
+        <param name="Height" unit="см">104</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>53/66/104</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="98dfee6a-25ab-11e6-b9bd-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_pristavnye/stolik_pristavnoy_421_123/</url>
+        <price>29000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>877</categoryId>
+        <categoryId>709</categoryId>
+        <categoryId>876</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/33081/98dfee6a25ab11e6b9bd00259032c34f_ad0571c625af11e6b9bd00259032c34f.jpg</picture>
+        <name>Столик приставной Dubois </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>421-123</vendorCode>
+        <description>Приставной столик Dubois изготовлен из твердой породы гмелины и выполнен в эбеновой отделке. Столешница - антично-зеркальная.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">64</param>
+        <param name="Diameter" unit="см">61</param>
+        <dimensions>0/0/64</dimensions>
+        <param name="stock">3</param>
+        <param name="Material">твердая порода дерева,зеркало</param>
+      </offer>
+      <offer id="9a159726-41e0-11e7-ad77-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/myagkaya_mebel/kresla/myagkie_kresla/kreslo_romney_leather_n2322l/</url>
+        <price>154828.912</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>858</categoryId>
+        <categoryId>699</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/39317/9a15972641e011e7ad7700259032c34f_a2bc60b741e011e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/39317/9a15972641e011e7ad7700259032c34f_a2bc60b341e011e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/39317/9a15972641e011e7ad7700259032c34f_a2bc60b441e011e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/39317/9a15972641e011e7ad7700259032c34f_a2bc60b541e011e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/39317/9a15972641e011e7ad7700259032c34f_a2bc60b641e011e7ad7700259032c34f.jpg</picture>
+        <name>Кресло Romney Leather </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>N2322L</vendorCode>
+        <description>Великолепное кожаное кресло Romney станет стильной деталью интерьера. Невысокие деревянные ножки выполнены в отделке мокко. Мягкая обивка декорирована антично-никелированными гвоздиками.
+Высота сиденья: 47 см;
+Высота подлокотников: 75 см.
+Модель доступна ...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">75</param>
+        <param name="Depth" unit="см">88</param>
+        <param name="Height" unit="см">75</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>75/88/75</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="9da48ed2-9c48-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/vazy_chashi_blyuda_kuvshiny_kashpo_menazhnitsy/vazy/vaza_trumpet_small/</url>
+        <price>9900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>657</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21690/9da48ed29c4811e1a3c100259032c34f_4ee2f78a9ac611e3a1a100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/21690/9da48ed29c4811e1a3c100259032c34f_4ee2f78b9ac611e3a1a100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/21690/9da48ed29c4811e1a3c100259032c34f_4ee2f78c9ac611e3a1a100259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/21690/9da48ed29c4811e1a3c100259032c34f_9da48ed39c4811e1a3c100259032c34f.jpg</picture>
+        <name>Ваза небольшая </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRA-8458</vendorCode>
+        <description>Ваза небольшая JRA-8458</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">82</param>
+        <param name="Diameter" unit="см">20</param>
+        <dimensions>0/0/82</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="a5e85df4-fc6f-11e3-9844-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/mebel_dlya_vannykh_/stul_iz_kollektsii_beaufort_house_5305_75410/</url>
+        <price>18000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>920</categoryId>
+        <categoryId>919</categoryId>
+        <categoryId>917</categoryId>
+        <categoryId>937</categoryId>
+        <categoryId>714</categoryId>
+        <categoryId>694</categoryId>
+        <categoryId>915</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/34395/a5e85df4fc6f11e3984400259032c34f_e15c5a90fc6f11e3984400259032c34f.jpg</picture>
+        <name>Стул из коллекции Beaufort House </name>
+        <vendor>Hooker Furniture</vendor>
+        <vendorCode>5305-75410</vendorCode>
+        <description>Стул из коллекции Beaufort House с мягкой обивкой сиденья. • Имеет интересное сочетание классических и фигурных ножек.
+• Изготовлен из твердых пород каучука и тополя с использованием шпона клена.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">56</param>
+        <param name="Depth" unit="см">62</param>
+        <param name="Height" unit="см">102</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>56/62/102</dimensions>
+        <param name="stock">4</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="a713346d-3043-11e5-9fed-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/zerkala/zerkalo_falkner_2_per_box_14185/</url>
+        <price>13574.0416</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>662</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25371/a713346d304311e59fed00259032c34f_d41ff018796111e5820d00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25371/a713346d304311e59fed00259032c34f_d41ff019796111e5820d00259032c34f.jpg</picture>
+        <name>Зеркало Falkner, 2 Per Box </name>
+        <vendor>Uttermost</vendor>
+        <vendorCode>14185</vendorCode>
+        <description>Изящное зеркало в классической деревянной раме. Рама выполнена в сильно &quot;состаренной&quot;отделке сусальным серебром с темно-серой глазурью. </description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">76</param>
+        <param name="Depth" unit="см">3</param>
+        <param name="Height" unit="см">107</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>76/3/107</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">зеркало,дерево</param>
+      </offer>
+      <offer id="a8d5f1fe-c0d0-11e4-958c-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/lampy/lampa_scanlon_26389/</url>
+        <price>15000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>720</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/19848/a8d5f1fec0d011e4958c00259032c34f_a8d5f200c0d011e4958c00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/19848/a8d5f1fec0d011e4958c00259032c34f_a8d5f1ffc0d011e4958c00259032c34f.jpg</picture>
+        <name>Лампа Scanlon </name>
+        <vendor>Uttermost</vendor>
+        <vendorCode>26389</vendorCode>
+        <description>Очаровательная настольная лампа от производителя Uttermost.
+•Изготовлена из клена и шелка.
+•Выполнена с золотыми оттенками, абажур - цвета &quot;шампанского&quot;.
+•Размеры абажура: Д 41 х В 30 см.
+•Рассчитана на лампочку: 1 х 100 W.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">41</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/41</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">металл,шелк</param>
+      </offer>
+      <offer id="ab7d584b-52a6-11e6-9486-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/komod_odessa_353_032/</url>
+        <price>225829.02736</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/28951/ab7d584b52a611e6948600259032c34f_b54f38bf52a611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28951/ab7d584b52a611e6948600259032c34f_b54f38be52a611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28951/ab7d584b52a611e6948600259032c34f_b54f38bd52a611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28951/ab7d584b52a611e6948600259032c34f_b54f38bc52a611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28951/ab7d584b52a611e6948600259032c34f_b54f38bb52a611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28951/ab7d584b52a611e6948600259032c34f_b54f38ba52a611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/28951/ab7d584b52a611e6948600259032c34f_b54f38b952a611e6948600259032c34f.jpg</picture>
+        <name>Комод Odessa </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>353-032</vendorCode>
+        <description>Очаровательный комод с тремя выдвижными ящиками, украшенными геометрическим узором. Модель выполнена в отделке &quot;German Silver&quot;. Задняя панель выполнена в черной отделке. </description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">120</param>
+        <param name="Depth" unit="см">47</param>
+        <param name="Height" unit="см">97</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>120/47/97</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">твердая порода дерева</param>
+      </offer>
+      <offer id="ac2fb451-222f-11e4-87c7-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_obedennye/stol_obedennyy_mn5649/</url>
+        <price>131500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>708</categoryId>
+        <categoryId>842</categoryId>
+        <categoryId>843</categoryId>
+        <categoryId>845</categoryId>
+        <categoryId>849</categoryId>
+        <categoryId>850</categoryId>
+        <categoryId>898</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/19314/ac2fb451222f11e487c700259032c34f_b36c1321222f11e487c700259032c34f.jpg</picture>
+        <name>Стол обеденный </name>
+        <vendor>Century Furniture LLC</vendor>
+        <vendorCode>MN5649</vendorCode>
+        <description>Прекрасный обеденный стол на резных ножках.
+•Благодаря дополнительной секции стол может увеличиваться.
+•Изготовлен из твердой породы акации и шпона.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">76</param>
+        <param name="Diameter" unit="см">142</param>
+        <dimensions>0/0/76</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,акация</param>
+      </offer>
+      <offer id="acf31623-843c-11e4-b361-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/myagkaya_mebel/banketki_pufy_ottomanki/banketka_haven_346_508r/</url>
+        <price>49500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>697</categoryId>
+        <categoryId>883</categoryId>
+        <categoryId>884</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22900/acf31623843c11e4b36100259032c34f_b4964e94843c11e4b36100259032c34f.jpg</picture>
+        <name>Банкетка Haven </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>346-508R</vendorCode>
+        <description>Аккуратная стильная банкетка выполнена в отделке Raven, изготовлена из шпона грецкого ореха. В банкетке прекрасно сочетаются темное дерево и светлая обивка.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">151</param>
+        <param name="Depth" unit="см">41</param>
+        <param name="Height" unit="см">48</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>151/41/48</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,грецкий орех,текстиль</param>
+      </offer>
+      <offer id="ad3174cf-d342-11e2-9f12-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/zerkala/zerkalo_empire_ii_3262_210/</url>
+        <price>29000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>662</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21443/ad3174cfd34211e29f1200259032c34f_8ccbbfceee1e4c5d973ab771574920aa.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/21443/ad3174cfd34211e29f1200259032c34f_bd66b18921e44580b57b1a07c08f2b8f.png</picture>
+        <name>Зеркало Empire II </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>3262-210</vendorCode>
+        <description>Зеркало из коллекции Empire II прямоугольной формы, с тонкой резьбой ручной работы, в отделке хна.
+Зеркало можно повесить и горизонтально, и вертикально.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">96</param>
+        <param name="Depth" unit="см">4</param>
+        <param name="Height" unit="см">132</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>96/4/132</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">твердая порода дерева,зеркало</param>
+      </offer>
+      <offer id="ad3174df-d342-11e2-9f12-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoliki_tualetnye_tumby_prikrovatnye/tumba_prikrovatnaya_corsica_9873_450/</url>
+        <price>32500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>705</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/32525/ad3174dfd34211e29f1200259032c34f_f81716308cdb48689b39f137218928f5.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/32525/ad3174dfd34211e29f1200259032c34f_f217b3955c2b4e2c9c159b8c8dc06a05.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/32525/ad3174dfd34211e29f1200259032c34f_3da7fc3c2b4e4c37ab7afb66ce70848a.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/32525/ad3174dfd34211e29f1200259032c34f_9f82e7a1ef5445deb5503cb09461d974.png</picture>
+        <name>Тумба прикроватная Corsica </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>9873-450</vendorCode>
+        <description>Прикроватная тумба в отделке античный трюфель с двумя выдвижными ящиками и открытой полкой.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">29</param>
+        <param name="Depth" unit="см">48</param>
+        <param name="Height" unit="см">81</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>29/48/81</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="ad728679-5ab3-11e5-9a8a-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/polukresla/polukreslo_jet_set_356_566/</url>
+        <price>42500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>713</categoryId>
+        <categoryId>775</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/24536/ad7286795ab311e59a8a00259032c34f_b5f9e0b65ab311e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24536/ad7286795ab311e59a8a00259032c34f_b5f9e0b55ab311e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24536/ad7286795ab311e59a8a00259032c34f_b5f9e0b45ab311e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24536/ad7286795ab311e59a8a00259032c34f_b5f9e0b35ab311e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24536/ad7286795ab311e59a8a00259032c34f_b5f9e0b25ab311e59a8a00259032c34f.jpg</picture>
+        <name>Полукресло Jet Set </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>356-566</vendorCode>
+        <description>Очаровательное полукресло Jet Set в мягкой тканевой обивке, декорированной небольшими гвоздиками. Полукресло изготавливается в разных вариантах отделки.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">60</param>
+        <param name="Depth" unit="см">66</param>
+        <param name="Height" unit="см">102</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>60/66/102</dimensions>
+        <param name="stock">10</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="adf156af-9aa3-11e5-98b5-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_pristavnye/pristavnoy_stolik_salon_341_112/</url>
+        <price>42855.18848</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>709</categoryId>
+        <categoryId>876</categoryId>
+        <categoryId>877</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/26631/adf156af9aa311e598b500259032c34f_d91a3fdb9aa311e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26631/adf156af9aa311e598b500259032c34f_d91a3fd89aa311e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26631/adf156af9aa311e598b500259032c34f_d91a3fd99aa311e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26631/adf156af9aa311e598b500259032c34f_d91a3fda9aa311e598b500259032c34f.jpg</picture>
+        <name>Приставной столик Salon </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>341-112</vendorCode>
+        <description>Элегантный, изящный приставной столик Salon с декоративным основанием, изготовленным из хромированной стали. Топ модели имеет покрытие шагрень.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">69</param>
+        <param name="Diameter" unit="см">36</param>
+        <dimensions>0/0/69</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">сталь</param>
+      </offer>
+      <offer id="b23bcfff-d022-11e2-9f12-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/komod_empire_ii_3263_590/</url>
+        <price>49900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <categoryId>879</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21395/b23bcfffd02211e29f1200259032c34f_7a8e5b0b4d3c4bf28dc51bfd1a5d1851.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/21395/b23bcfffd02211e29f1200259032c34f_f08f718423f1478f954281e63c7049a5.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/21395/b23bcfffd02211e29f1200259032c34f_201cbd728e43438eba9e12586f3ef492.png</picture>
+        <name>Комод Empire II </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>3263-590</vendorCode>
+        <description>Комод из коллекции Empire II с семью выдвижными ящиками, с мрамороной окантовкой на столешнице, в отделке хна.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">107</param>
+        <param name="Depth" unit="см">51</param>
+        <param name="Height" unit="см">154</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>107/51/154</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">твердая порода дерева,шпон вишни</param>
+      </offer>
+      <offer id="b23bd011-d022-11e2-9f12-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_zhurnalnye_kofeynye_kokteylnye/stolik_kokteylnyy_lincoln_park_9081_540/</url>
+        <price>36000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>706</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21409/b23bd011d02211e29f1200259032c34f_92869e0fdb844e8c953b7efe8822e34c.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/21409/b23bd011d02211e29f1200259032c34f_7323703a10d341fb95b73468920f1104.png</picture>
+        <name>Столик коктейльный Lincoln Park </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>9081-540</vendorCode>
+        <description>Коктейльный столик овальной формы со стеклянной столешницей и небольшой нижней полкой.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">122</param>
+        <param name="Depth" unit="см">71</param>
+        <param name="Height" unit="см">48</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>122/71/48</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,стекло</param>
+      </offer>
+      <offer id="bbc89d57-2df9-11e4-8711-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/zerkala/zerkalo_1253_484/</url>
+        <price>19000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>662</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/36037/bbc89d572df911e4871100259032c34f_ded91c1c2ea211e4844900259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/36037/bbc89d572df911e4871100259032c34f_ded91c1d2ea211e4844900259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/36037/bbc89d572df911e4871100259032c34f_ded91c1e2ea211e4844900259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/36037/bbc89d572df911e4871100259032c34f_ded91c1f2ea211e4844900259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/36037/bbc89d572df911e4871100259032c34f_ded91c202ea211e4844900259032c34f.jpg</picture>
+        <name>Зеркало </name>
+        <vendor>Maitland Smith </vendor>
+        <vendorCode>1253-484</vendorCode>
+        <description>Великолепное ручное зеркало: патинированная бронза, инкрустация морскими раковинами, превосходный дизайн – все это только для самых желанных, утонченных особ, имеющих тонкий вкус и обладающих подлинной женственностью.
+
+Также в ассортименте имеется набор и...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">15</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">40</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>15/0/40</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="bdc46761-3c38-11e1-8c32-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/zerkala/zerkalo_svetloe_amelia_06518_140_032/</url>
+        <price>49000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>662</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/36046/bdc467613c3811e18c3200259032c34f_1feb6f913c6511e18c3200259032c34f.jpg</picture>
+        <name>Зеркало светлое  Amelia </name>
+        <vendor>Ambella Home</vendor>
+        <vendorCode>06518-140-032</vendorCode>
+        <description>Зеркало светлое  Amelia 06518-140-032</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="c0f6b1f3-6066-11e6-9486-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/myagkaya_mebel/kresla/kreslo_clayton_b1741/</url>
+        <price>116106.5344</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>699</categoryId>
+        <categoryId>851</categoryId>
+        <categoryId>853</categoryId>
+        <categoryId>854</categoryId>
+        <categoryId>858</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/29178/c0f6b1f3606611e6948600259032c34f_d5913281606611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29178/c0f6b1f3606611e6948600259032c34f_d5913280606611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29178/c0f6b1f3606611e6948600259032c34f_d591327f606611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29178/c0f6b1f3606611e6948600259032c34f_d591327e606611e6948600259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/29178/c0f6b1f3606611e6948600259032c34f_d591327d606611e6948600259032c34f.jpg</picture>
+        <name>Кресло Clayton </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>B1741</vendorCode>
+        <description>Красивое, нежное кресло с юбкой от американского производителя Bernhardt. Мягкое сиденье, комфортная спинка, удобные подлокотники.
+Высота сиденья: 48 см; Высота подлокотников: 62 см;
+Глубина сиденья: 55 см. </description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">74</param>
+        <param name="Depth" unit="см">89</param>
+        <param name="Height" unit="см">84</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>74/89/84</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">текстиль</param>
+      </offer>
+      <offer id="c1118cf4-8e1c-11e5-b152-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_pristavnye/pristavnoy_stolik_haven_346_112r/</url>
+        <price>29400</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>709</categoryId>
+        <categoryId>877</categoryId>
+        <categoryId>876</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/25927/c1118cf48e1c11e5b15200259032c34f_e53a0fbe8e1c11e5b15200259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/25927/c1118cf48e1c11e5b15200259032c34f_e53a0fbd8e1c11e5b15200259032c34f.jpg</picture>
+        <name>Приставной столик Haven </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>346-112R</vendorCode>
+        <description>Очаровательный приставной столик Haven. Модель изготовлена из шпона грецкого ореха и выполнена в отделке raven. Ножки декорированы металлическими наконечниками в винтажной никелированной отделке. </description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">67</param>
+        <param name="Depth" unit="см">61</param>
+        <param name="Height" unit="см">64</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>67/61/64</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,грецкий орех,металл</param>
+      </offer>
+      <offer id="c139de94-448a-11e3-babc-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/krovati/krovat_st_james_place_panel_a933_351/</url>
+        <price>99000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>693</categoryId>
+        <categoryId>825</categoryId>
+        <categoryId>826</categoryId>
+        <categoryId>827</categoryId>
+        <categoryId>828</categoryId>
+        <categoryId>833</categoryId>
+        <categoryId>834</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/22984/c139de94448a11e3babc00259032c34f_3142b588448b11e3babc00259032c34f.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/22984/c139de94448a11e3babc00259032c34f_3142b589448b11e3babc00259032c34f.png</picture>
+        <picture>http://american-interiors.ru/iblock_image/22984/c139de94448a11e3babc00259032c34f_3142b58a448b11e3babc00259032c34f.png</picture>
+        <name>Кровать размера King из коллекции St. James Place, </name>
+        <vendor>Schnadig</vendor>
+        <vendorCode>A933-351</vendorCode>
+        <description>Кровать из коллекции St. James Place выполнена в отделке Sable, изголовье кровати по периметру декорировано тонкими золотистыми линиями. Изготовлена из твердой породы дерева с применением шпона грецкого ореха. Модель также представлена в других размерах: ...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">210</param>
+        <param name="Depth" unit="см">217</param>
+        <param name="Height" unit="см">165</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>210/217/165</dimensions>
+        <param name="stock">3</param>
+        <param name="Material">шпон,твердая порода дерева,грецкий орех</param>
+      </offer>
+      <offer id="c316ce4e-5d84-11e6-9486-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/myagkaya_mebel/divany/divan_kitty_b2247/</url>
+        <price>188036.8352</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>698</categoryId>
+        <categoryId>812</categoryId>
+        <categoryId>813</categoryId>
+        <categoryId>814</categoryId>
+        <categoryId>815</categoryId>
+        <categoryId>817</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/29155/c316ce4e5d8411e6948600259032c34f_da8588135d8411e6948600259032c34f.jpg</picture>
+        <name>Диван Kitty </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>B2247</vendorCode>
+        <description>Очаровательный небольшой диван Kitty. Ножки выполнены в &quot;состаренной&quot; серой отделке. Подлокотники и основание декорированы гвоздиками с широкой шляпкой. Гвоздики выполнены в антично-никелированной отделке.
+Высота сиденья: 46 см; Высота подлокотников: 64 ...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">193</param>
+        <param name="Depth" unit="см">98</param>
+        <param name="Height" unit="см">97</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>193/98/97</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="c43d982f-4ba4-11e4-8604-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/myagkaya_mebel/kresla/kreslo_kingston_n1712/</url>
+        <price>153132.1568</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>699</categoryId>
+        <categoryId>853</categoryId>
+        <categoryId>854</categoryId>
+        <categoryId>858</categoryId>
+        <categoryId>933</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/27836/c43d982f4ba411e4860400259032c34f_b7c96f4d0e1611e6b84500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/27836/c43d982f4ba411e4860400259032c34f_b7c96f4e0e1611e6b84500259032c34f.jpg</picture>
+        <name>Кресло Kingston, </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>N1712</vendorCode>
+        <description>Современное кресло в текстильной обивке серо-бежевого цвета на деревяных ножках в отделке &quot;мокко&quot;.
+По периметру кресло декорировано гвоздиками с круглой шляпкой.
+Имеется мягкая подушка-сиденье, а также дополнительная подушка под спину.
+Данное кресло очень...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">79</param>
+        <param name="Depth" unit="см">95</param>
+        <param name="Height" unit="см">113</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>79/95/113</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="c9c6e6c4-4466-11e7-ad77-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/tumba_dlya_ofisa_curata_1600_10412_dkw/</url>
+        <price>64264.6032</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/39355/c9c6e6c4446611e7ad7700259032c34f_29c6210a446711e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/39355/c9c6e6c4446611e7ad7700259032c34f_29c6210b446711e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/39355/c9c6e6c4446611e7ad7700259032c34f_29c6210c446711e7ad7700259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/39355/c9c6e6c4446611e7ad7700259032c34f_29c6210d446711e7ad7700259032c34f.jpg</picture>
+        <name>Тумба для офиса Curata, </name>
+        <vendor>Hooker Furniture</vendor>
+        <vendorCode>1600-10412-DKW</vendorCode>
+        <description>Тумба для офиса из коллекции Curata - идеальный вариант для хранения документации и канцелярских принадлежностей. Оснащена двумя выдвижными ящиками, Габариты нижнего ящика с замком рассчитаны для хранения папок. Модель изготовлена из твердой древесины кау...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">42</param>
+        <param name="Depth" unit="см">51</param>
+        <param name="Height" unit="см">60</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>42/51/60</dimensions>
+        <param name="stock">2</param>
+        <param name="Material">шпон,белый дуб,каучук,металл</param>
+      </offer>
+      <offer id="d10166ec-b560-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_jrb_2487/</url>
+        <price>7158</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21716/d10166ecb56011e1a3c100259032c34f_ce8c410cb57211e1a3c100259032c34f.jpg</picture>
+        <name>Цветочная композиция </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2487</vendorCode>
+        <description>Орхидея фаленопсис в керамическом белом кашпо.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">5</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d10166ee-b560-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_jrb_2584/</url>
+        <price>9900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21717/d10166eeb56011e1a3c100259032c34f_ce8c410eb57211e1a3c100259032c34f.jpg</picture>
+        <name>Цветочная композиция </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2584</vendorCode>
+        <description>Напольная композиция с розовыми орхидеями, задекорирована ветками в черной стеклянной вазе.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">160</param>
+        <param name="Diameter" unit="см">80</param>
+        <dimensions>0/0/160</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d10166f2-b560-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_jrb_2659/</url>
+        <price>9195</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21719/d10166f2b56011e1a3c100259032c34f_ce8c4112b57211e1a3c100259032c34f.jpg</picture>
+        <name>Цветочная композиция </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2659</vendorCode>
+        <description>Цветочная композиция JRB-2659</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">41</param>
+        <param name="Depth" unit="см">41</param>
+        <param name="Height" unit="см">86</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>41/41/86</dimensions>
+        <param name="stock">4</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d10166fc-b560-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_jrb_2759/</url>
+        <price>5335</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21723/d10166fcb56011e1a3c100259032c34f_ce8c411cb57211e1a3c100259032c34f.jpg</picture>
+        <name>Цветочная композиция </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2759</vendorCode>
+        <description>Искусственная агава в кашпо.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">6</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d101670d-b560-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_jrb_2916w/</url>
+        <price>9900</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21733/d101670db56011e1a3c100259032c34f_ce8c412eb57211e1a3c100259032c34f.jpg</picture>
+        <name>Цветочная композиция </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2916W</vendorCode>
+        <description>Настольная композиция из орхидеи Фаленопсис. Имитация воды, декоративные камни белого цвета.
+Стеклянный цилиндр.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d1016710-b560-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_jrb_2935w/</url>
+        <price>4839</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21734/d1016710b56011e1a3c100259032c34f_ce8c4131b57211e1a3c100259032c34f.jpg</picture>
+        <name>Цветочная композиция </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2935W</vendorCode>
+        <description>Цветочная композиция JRB-2935W</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">4</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d1016715-b560-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_interesting_aqua_jrb_2951/</url>
+        <price>18509</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21735/d1016715b56011e1a3c100259032c34f_ce8c4136b57211e1a3c100259032c34f.jpg</picture>
+        <name>Цветочная композиция Interesting Aqua </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2951</vendorCode>
+        <description>Нежная весенняя цветочная композиция в аквамариновой высокой вазе.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">53</param>
+        <param name="Depth" unit="см">33</param>
+        <param name="Height" unit="см">102</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>53/33/102</dimensions>
+        <param name="stock">11</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d101671a-b560-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_jrb_2966/</url>
+        <price>8971</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21736/d101671ab56011e1a3c100259032c34f_ce8c413bb57211e1a3c100259032c34f.jpg</picture>
+        <name>Цветочная композиция </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-2966</vendorCode>
+        <description>Декоративная композиция из орхидеи Фаленопсис. Искусственный мох, украшенный кувшинками. Ваза напоминает оленьи рога, изготовлена из натурального дерева.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d2e745de-5a4f-11e5-9a8a-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stulya_i_polukresla/polukresla/polukreslo_miramont_360_566/</url>
+        <price>28000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>713</categoryId>
+        <categoryId>775</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/24528/d2e745de5a4f11e59a8a00259032c34f_dc867cd15a4f11e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24528/d2e745de5a4f11e59a8a00259032c34f_dc867cd05a4f11e59a8a00259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24528/d2e745de5a4f11e59a8a00259032c34f_dc867ccf5a4f11e59a8a00259032c34f.jpg</picture>
+        <name>Полукресло Miramont </name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>360-566</vendorCode>
+        <description>Высокое, стильное полукресло от производителя Bernhardt. Великолепная отделка, мягкая обивка сиденья и спинки. Высота подлокотников 65 см.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">62</param>
+        <param name="Depth" unit="см">72</param>
+        <param name="Height" unit="см">100</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>62/72/100</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">твердая порода дерева,текстиль</param>
+      </offer>
+      <offer id="d3c6cee2-c9fa-11e3-9a01-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/tsvetochnye_kompozitsii/tsvetochnaya_kompozitsiya_paslen_jrb_3241_/</url>
+        <price>24000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>684</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/20749/d3c6cee2c9fa11e39a0100259032c34f_7e9f8bbdd44e11e3b3e200259032c34f.jpg</picture>
+        <name>Цветочная композиция &quot;Паслен&quot; </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>JRB-3241 </vendorCode>
+        <description>Яркая цветочная композиция в белой глянцевой чаше.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">39</param>
+        <param name="Depth" unit="см">39</param>
+        <param name="Height" unit="см">34</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>39/39/34</dimensions>
+        <param name="stock">1</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="d8d514c8-c952-11e3-9a01-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/kartiny_panno_reproduktsii/kartiny/kartina_a_deluge_of_fuchsia_gbg_0868/</url>
+        <price>49000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>665</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/20732/d8d514c8c95211e39a0100259032c34f_5b6a7c6ff21911e3968b00259032c34f.jpg</picture>
+        <name>Картина &quot;A Deluge of Fuchsia&quot; </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>GBG-0868</vendorCode>
+        <description>На картине изображен фрагмент более крупной работы, будто рассматриваемый под микроскопом. Картина имеет глянцевое покрытие.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">0</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>0/0/0</dimensions>
+        <param name="stock">2</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="daff173f-cac5-11e4-bb18-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/torshery/torsher_brazoria_28235_1/</url>
+        <price>27360.1776</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>722</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/23734/daff173fcac511e4bb1800259032c34f_daff1740cac511e4bb1800259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/23734/daff173fcac511e4bb1800259032c34f_e137bde1cac511e4bb1800259032c34f.jpg</picture>
+        <name>Торшер Brazoria </name>
+        <vendor>Uttermost</vendor>
+        <vendorCode>28235-1</vendorCode>
+        <description>Очаровательный торшер в масляно-бронзовой отделке. Торшер имеет стеклянную вставку, на которой удобно расположатся нужные под рукой мелочи. Диаметр вставки 48 см.
+Шелковистый абажур цвета &quot;искрящегося шампанского&quot;. Размер абажура (Д 51 х В 25 см).
+Рассчит...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">175</param>
+        <param name="Diameter" unit="см">51</param>
+        <dimensions>0/0/175</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">текстиль,металл,стекло</param>
+      </offer>
+      <offer id="dc94c407-38dd-11e4-8314-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/komody/komod_palisade_six_5183_90017/</url>
+        <price>122590.5632</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>691</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/24214/dc94c40738dd11e4831400259032c34f_5b13726638de11e4831400259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24214/dc94c40738dd11e4831400259032c34f_5b13726538de11e4831400259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24214/dc94c40738dd11e4831400259032c34f_5b13726438de11e4831400259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24214/dc94c40738dd11e4831400259032c34f_5b13726338de11e4831400259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/24214/dc94c40738dd11e4831400259032c34f_5b13726238de11e4831400259032c34f.jpg</picture>
+        <name>Комод Palisade Six </name>
+        <vendor>Hooker Furniture</vendor>
+        <vendorCode>5183-90017</vendorCode>
+        <description>Комод из коллекции Palisade.
+•Шесть выдвижных ящиков.
+•Изготовлен из дерева твердой породы с применением шпона ореха.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">102</param>
+        <param name="Depth" unit="см">48</param>
+        <param name="Height" unit="см">86</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>102/48/86</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,твердая порода дерева,грецкий орех</param>
+        <param name="waitingInstock">1</param>
+        <param name="instockDate">31.07.2017 19:15:00</param>
+      </offer>
+      <offer id="ed7a3328-b4e4-11e4-9a23-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/svet/lyustry/lyustra_fascination_21908/</url>
+        <price>49000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>721</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/20797/ed7a3328b4e411e49a2300259032c34f_ed7a3329b4e411e49a2300259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/20797/ed7a3328b4e411e49a2300259032c34f_ed7a332ab4e411e49a2300259032c34f.jpg</picture>
+        <name>Люстра Fascination </name>
+        <vendor>Uttermost</vendor>
+        <vendorCode>21908</vendorCode>
+        <description>Дивная классическая люстра, декорированная кристаллами, в серебрянной отделке. Рассчитана на лампочки: 3 х 100 W.
+Разработана по дизайну Carolyn Kinder.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">0</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">58</param>
+        <param name="Diameter" unit="см">56</param>
+        <dimensions>0/0/58</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">текстиль,металл,хрусталь</param>
+      </offer>
+      <offer id="f3447f74-991d-11e1-a3c1-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/aksessuary/kartiny_panno_reproduktsii/kartiny/kartina_ragged_scribbling_109kh160sm/</url>
+        <price>65000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>665</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/21656/f3447f74991d11e1a3c100259032c34f_f3447f75991d11e1a3c100259032c34f.jpg</picture>
+        <name>Картина Ragged scribbling, </name>
+        <vendor>John Richard</vendor>
+        <vendorCode>GBG-0407</vendorCode>
+        <description>Оригинальная яркая композиция от художницы Jane Farrimond Keltner.
+Абстракция покрыта глянцевым лаком, который добавляет ей контрастности. Деревянная рама, вкоторую вложена картина, вручную покрыта серебряной краской.</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">109</param>
+        <param name="Depth" unit="см">0</param>
+        <param name="Height" unit="см">160</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>109/0/160</dimensions>
+        <param name="stock">3</param>
+        <param name="Material"></param>
+      </offer>
+      <offer id="f3799eff-9b71-11e5-98b5-00259032c34f" available="true">
+        <url>http://american-interiors.ru/catalog/mebel/stoly/stoly_kabinetnye_pismennye_byuro/pismennyy_stol_salon_341_510/</url>
+        <price>146090.62272</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>707</categoryId>
+        <categoryId>766</categoryId>
+        <categoryId>765</categoryId>
+        <categoryId>755</categoryId>
+        <picture>http://american-interiors.ru/iblock_image/26641/f3799eff9b7111e598b500259032c34f_21e16ba49b7211e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26641/f3799eff9b7111e598b500259032c34f_21e16ba29b7211e598b500259032c34f.jpg</picture>
+        <picture>http://american-interiors.ru/iblock_image/26641/f3799eff9b7111e598b500259032c34f_21e16ba39b7211e598b500259032c34f.jpg</picture>
+        <name>Письменный стол Salon 341-510</name>
+        <vendor>Bernhardt</vendor>
+        <vendorCode>341-510 </vendorCode>
+        <description>Аккуратный изящный письменный стол Salon на стальных декоративных ножках. У модели три выдвижных ящика, имеющих покрытие шагрень. Модель выполнена в белой отделке. Для изготовления стола использован шпон клена. Имеет скрытый выход для электрических провод...</description>
+        <sales_notes>Необходима предоплата.</sales_notes>
+        <param name="Width" unit="см">157</param>
+        <param name="Depth" unit="см">76</param>
+        <param name="Height" unit="см">76</param>
+        <param name="Diameter" unit="см">0</param>
+        <dimensions>157/76/76</dimensions>
+        <param name="stock">1</param>
+        <param name="Material">шпон,клен,сталь</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
