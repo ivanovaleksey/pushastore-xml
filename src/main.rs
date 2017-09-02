@@ -8,19 +8,15 @@ extern crate serde_derive;
 extern crate serde;
 extern crate toml;
 
-extern crate glob;
-
 use std::env;
-use std::fs::File;
+use std::fs;
 use std::io::Read;
-use std::path::{Path, PathBuf};
+use std::path::PathBuf;
 use std::collections::HashMap;
 
 use xml::reader::{EventReader, XmlEvent};
 
 use xlsx::workbook::Workbook;
-
-use glob::glob;
 
 #[derive(Deserialize, Debug)]
 struct Config {
@@ -34,10 +30,10 @@ struct Column {
 }
 
 fn main() {
-    match detect_xml_file() {
+    match detect_file() {
         Some(filename) => {
             let filename = &filename.to_str().unwrap();
-            println!("File detected: {}", filename);
+            println!("Detected file: {}", filename);
 
             let config = fetch_config();
             // println!("{:#?}", config);
@@ -48,16 +44,18 @@ fn main() {
             generate_xlsx(&offers, &config);
         }
         None => {
-            println!("No XML file found. Put it in this folder and try again.");
+            println!("No XML or YML file found. Put it in this folder and try again.");
         }
     }
 }
 
-fn detect_xml_file() -> Option<PathBuf> {
-    match glob("*.xml").unwrap().nth(0) {
-        Some(file) => file.ok(),
-        _ => None
-    }
+fn detect_file() -> Option<PathBuf> {
+    fs::read_dir(".").unwrap()
+        .map(|elem| elem.unwrap().path() )
+        .find(|path_buf| {
+            let path_str = format!("{}", path_buf.display());
+            path_str.ends_with(".xml") || path_str.ends_with(".yml")
+        })
 }
 
 fn decode(input: &[u8]) -> String {
@@ -84,7 +82,7 @@ fn decode(input: &[u8]) -> String {
 }
 
 fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
-    let mut file = File::open(filename).unwrap();
+    let mut file = fs::File::open(filename).unwrap();
     let mut buffer = Vec::new();
     file.read_to_end(&mut buffer);
 
@@ -155,7 +153,7 @@ fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
 }
 
 fn fetch_config() -> Config {
-    let mut file = File::open("config.toml").unwrap();
+    let mut file = fs::File::open("config.toml").unwrap();
     let mut content = String::from("");
     file.read_to_string(&mut content);
 
