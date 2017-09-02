@@ -4,11 +4,11 @@ extern crate xlsx;
 
 #[macro_use]
 extern crate serde_derive;
-
 extern crate serde;
 extern crate toml;
 
-use std::env;
+extern crate clap;
+
 use std::fs;
 use std::io::Read;
 use std::path::PathBuf;
@@ -17,6 +17,8 @@ use std::collections::HashMap;
 use xml::reader::{EventReader, XmlEvent};
 
 use xlsx::workbook::Workbook;
+
+use clap::{Arg, App};
 
 #[derive(Deserialize, Debug)]
 struct Config {
@@ -32,6 +34,17 @@ struct Column {
 fn main() {
     match detect_file() {
         Some(filename) => {
+            let matches = App::new("Pushastore XML")
+                .arg(Arg::with_name("output")
+                    .short("o")
+                    .long("output")
+                    .value_name("FILE")
+                    .help("Write to FILE (defult output.xlsx)")
+                    .takes_value(true))
+                .get_matches();
+
+            let output_filename = matches.value_of("output").unwrap_or("output.xlsx");
+
             let filename = &filename.to_str().unwrap();
             println!("Detected file: {}", filename);
 
@@ -41,7 +54,8 @@ fn main() {
             let offers = fetch_offers(filename);
             // println!("{:#?}", offers[0]);
 
-            generate_xlsx(&offers, &config);
+            let mut workbook = generate_xlsx(&offers, &config);
+            workbook.xlsx(output_filename);
         }
         None => {
             println!("No XML or YML file found. Put it in this folder and try again.");
@@ -160,7 +174,7 @@ fn fetch_config() -> Config {
     toml::from_str(&content).unwrap()
 }
 
-fn generate_xlsx(offers: &Vec<HashMap<String, String>>, config: &Config) {
+fn generate_xlsx<'a>(offers: &'a Vec<HashMap<String, String>>, config: &'a Config) -> Workbook<'a> {
     let mut w = Workbook::new("", "Rust", true);
     w.initialize();
     let mut s = w.new_worksheet("Sheet 1", 2);
@@ -202,5 +216,5 @@ fn generate_xlsx(offers: &Vec<HashMap<String, String>>, config: &Config) {
     s.flush();
     w.flush();
 
-    w.xlsx("test.xlsx");
+    w
 }
