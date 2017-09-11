@@ -10,6 +10,7 @@ extern crate toml;
 extern crate clap;
 
 use std::fs;
+use std::io;
 use std::io::Read;
 use std::path::PathBuf;
 use std::collections::HashMap;
@@ -31,6 +32,17 @@ struct Column {
     keys: Vec<String>
 }
 
+enum ConfigError {
+    Io(io::Error),
+    Parse(toml::de::Error)
+}
+
+impl From<io::Error> for ConfigError {
+    fn from(err: io::Error) -> ConfigError {
+        ConfigError::Io(err)
+    }
+}
+
 fn main() {
     match detect_file() {
         Some(filename) => {
@@ -49,8 +61,17 @@ fn main() {
             let filename = &filename.to_str().unwrap();
             println!("Detected file: {}", filename);
 
-            let config = fetch_config();
-            // println!("{:#?}", config);
+            let config = match fetch_config() {
+                Ok(value) => value,
+                Err(ConfigError::Io {..}) => {
+                    println!("Missing configuration file 'config.toml'");
+                    return;
+                },
+                Err(ConfigError::Parse {..}) => {
+                    println!("Configuration file parsing has failed");
+                    return;
+                }
+            };
 
             let offers = fetch_offers(filename);
             // println!("{:#?}", offers[0]);
@@ -167,12 +188,11 @@ fn fetch_offers(filename: &str) -> Vec<HashMap<String, String>> {
     offers
 }
 
-fn fetch_config() -> Config {
-    let mut file = fs::File::open("config.toml").unwrap();
-    let mut content = String::from("");
-    file.read_to_string(&mut content);
-
-    toml::from_str(&content).unwrap()
+fn fetch_config() -> Result<Config, ConfigError> {
+    let mut file = try!(fs::File::open("config.toml"));
+    let mut content = String::new();
+    try!(file.read_to_string(&mut content));
+    toml::from_str(&content).map_err(ConfigError::Parse)
 }
 
 fn generate_xlsx<'a>(offers: &'a Vec<HashMap<String, String>>, config: &'a Config) -> Workbook<'a> {
